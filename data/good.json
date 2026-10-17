@@ -1,0 +1,87 @@
+[
+  {
+    "id": "masai-ai-mammography-final-results",
+    "date": "2026-01-30",
+    "title": "MASAI trial: AI-supported breast screening",
+    "who": "Lund University (Sweden)",
+    "what": "The first randomised trial of AI-supported mammography screening, with about 106,000 women, found 12% fewer interval cancers than standard double reading. Earlier results showed 29% more cancers detected and 44% less reading work.",
+    "why": "Fewer cancers missed between screenings, with less radiologist time per woman screened.",
+    "sources": [
+      {
+        "publisher": "Lund University",
+        "title": "AI support in breast cancer screening: Fewer missed cancer cases",
+        "url": "https://www.lunduniversity.lu.se/article/ai-support-breast-cancer-screening-fewer-missed-cancer-cases"
+      }
+    ]
+  },
+  {
+    "id": "c2s-scale-cancer-hypothesis",
+    "date": "2025-10-15",
+    "title": "C2S-Scale finds a way to make tumours more visible",
+    "who": "Google DeepMind and Yale University",
+    "what": "A 27B-parameter open model built on Gemma simulated over 4,000 drugs and flagged silmitasertib as a 'conditional enhancer' that can make tumour cells more visible to the immune system. Lab tests in human cell models confirmed it.",
+    "why": "An AI-generated cancer hypothesis that held up in the lab. Early-stage, preprint only, but real science.",
+    "sources": [
+      {
+        "publisher": "The Decoder",
+        "title": "Google Deepmind's new Gemma model helped discover a new cancer treatment pathway",
+        "url": "https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/"
+      }
+    ]
+  },
+  {
+    "id": "arteraai-prostate-fda",
+    "date": "2025-08-13",
+    "title": "ArteraAI Prostate authorised by the FDA",
+    "who": "Artera",
+    "what": "The FDA granted De Novo authorisation to AI software that reads biopsy pathology images to estimate long-term outcomes, such as risk of metastasis, for patients with non-metastatic prostate cancer. Validated on data from phase 3 trials.",
+    "why": "Helps decide who needs more aggressive treatment and who can be spared it.",
+    "sources": [
+      {
+        "publisher": "Artera",
+        "title": "Artera Receives U.S. FDA De Novo Marketing Authorization for AI Digital Pathology Software Revolutionizing Prostate Cancer Care",
+        "url": "https://artera.ai/news/artera-receives-u-s-fda-de-novo-marketing-authorization-for-ai-digital-pathology-software-revolutionizing-prostate-cancer-care"
+      },
+      {
+        "publisher": "Urology Times",
+        "title": "FDA grants de novo authorization to ArteraAI Prostate",
+        "url": "https://www.urologytimes.com/view/fda-grants-de-novo-authorization-to-arteraai-prostate"
+      }
+    ]
+  },
+  {
+    "id": "praim-germany-ai-mammography",
+    "date": "2025-01-07",
+    "title": "PRAIM: AI in Germany's breast screening programme",
+    "who": "University of Lübeck and Vara",
+    "what": "A real-world study of 463,094 women screened at 12 German sites found AI-supported reading detected 6.7 breast cancers per 1,000 versus 5.7 without AI, 17.6% more, with no increase in recall rate.",
+    "why": "More cancers found in routine screening, without more false alarms.",
+    "sources": [
+      {
+        "publisher": "Universität zu Lübeck (Nature Medicine)",
+        "title": "Nationwide real-world implementation of AI for cancer detection in population-based mammography screening",
+        "url": "https://research.uni-luebeck.de/en/publications/nationwide-real-world-implementation-of-ai-for-cancer-detection-i/"
+      }
+    ]
+  },
+  {
+    "id": "alphafold-nobel-chemistry",
+    "date": "2024-10-09",
+    "title": "AlphaFold wins the Nobel Prize in Chemistry",
+    "who": "Google DeepMind (Demis Hassabis, John Jumper)",
+    "what": "Half of the 2024 Chemistry Nobel went to the creators of AlphaFold2, which predicts protein structures. In one early use, AlphaFold structures helped find a new inhibitor candidate for a liver cancer target, CDK20.",
+    "why": "Knowing a protein's shape is a starting point for designing drugs against it, cancer drugs included.",
+    "sources": [
+      {
+        "publisher": "Science News",
+        "title": "Work on protein structure and design wins the 2024 chemistry Nobel",
+        "url": "https://sciencenews.org/article/nobel-prize-chemistry-2024-proteins"
+      },
+      {
+        "publisher": "Chemical Science (via PMC)",
+        "title": "AlphaFold accelerates artificial intelligence powered drug discovery: efficient discovery of a novel CDK20 small molecule inhibitor",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9906638/"
+      }
+    ]
+  }
+]

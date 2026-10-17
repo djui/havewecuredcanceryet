@@ -1,0 +1,260 @@
+[
+  {
+    "id": "tesla-roadster-spacex-thrusters",
+    "date": "2026-10-15",
+    "title": "Tesla Roadster with SpaceX thrusters",
+    "who": "Tesla and SpaceX (Elon Musk)",
+    "tag": "same-money",
+    "what": "Tesla unveiled the long-delayed Roadster outside Waco, Texas, nine years after the 2017 prototype. Its top trims use SpaceX-developed cold-gas thrusters to leap, flip and land. No price; Musk says production starts in 2028.",
+    "quip": "Actual rocket science, pointed at last at a car park.",
+    "cost": "Reservations of $50,000 (Performance) or $250,000 (Thrust); no price announced. Deposits were first taken in 2017.",
+    "sources": [
+      {
+        "publisher": "Electrek",
+        "title": "Tesla unveils Cyberfied new Roadster that can kickflip",
+        "url": "https://electrek.co/2026/10/15/tesla-unveils-cyberfied-new-roadster-kickflip/"
+      },
+      {
+        "publisher": "TechCrunch",
+        "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+        "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+      },
+      {
+        "publisher": "Electrek",
+        "title": "Tesla is unveiling the new Roadster for real this time, promise",
+        "url": "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "friend-2-ai-pendant",
+    "date": "2026-07-30",
+    "title": "Friend 2.0 pendant",
+    "who": "Friend (Avi Schiffmann)",
+    "tag": "ai",
+    "what": "An always-listening AI companion necklace, relaunched with a speaker so it can talk back. It costs $249, up from $129, and remembering anything beyond 30 days requires a monthly subscription of about $10.",
+    "quip": "A friend who is always listening, now on a subscription plan.",
+    "cost": "$249 per pendant. The company earlier spent $1.8M on the friend.com domain and over $1M on New York subway ads.",
+    "sources": [
+      {
+        "publisher": "Engadget",
+        "title": "That AI wearable you don't like just got worse",
+        "url": "https://engadget.com/2227503/that-friend-ai-wearable-you-dont-like-just-got-worse"
+      },
+      {
+        "publisher": "TechCrunch",
+        "title": "AI startup Friend spent more than $1M on all those subway ads",
+        "url": "https://techcrunch.com/2025/09/27/ai-startup-friend-spent-more-than-1m-on-all-those-subway-ads"
+      },
+      {
+        "publisher": "404 Media",
+        "title": "AI 'Friend' Company Spent $1.8 Million and Most of Its Funds on Domain Name",
+        "url": "https://404media.co/ai-friend-company-spent-1-8-million-and-most-its-funds-on-domain-name"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "buzzfeed-bf-island",
+    "date": "2026-03-17",
+    "title": "BF Island",
+    "who": "BuzzFeed",
+    "tag": "ai",
+    "what": "At SXSW, BuzzFeed presented new consumer AI apps as a source of revenue, including BF Island, a group chat where users recreate meme trends with AI-edited photos.",
+    "quip": "The future of media: a group chat of AI-edited memes.",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "BuzzFeed debuts AI slop apps in bid for new revenue",
+        "url": "https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "ai-com-super-bowl",
+    "date": "2026-02-08",
+    "title": "AI.com Super Bowl launch",
+    "who": "AI.com (Kris Marszalek)",
+    "tag": "ai",
+    "what": "Crypto.com CEO Kris Marszalek launched AI.com, a platform for building personal AI agents, with a 30-second ad during Super Bowl LX. The website crashed under the traffic.",
+    "quip": "Seventy million dollars for two letters, and the website still fell over.",
+    "cost": "About $70M, paid in crypto, reportedly spent on the AI.com domain",
+    "sources": [
+      {
+        "publisher": "The Block",
+        "title": "Crypto.com CEO Kris Marszalek bought AI.com for $70 million in crypto, plans Super Bowl debut",
+        "url": "https://www.theblock.co/post/388975/crypto-com-ceo-kris-marszalek-bought-ai-com-for-70-million-in-crypto-plans-super-bowl-debut"
+      },
+      {
+        "publisher": "Adweek",
+        "title": "AI.com Crashes the Super Bowl, and Its Website",
+        "url": "https://www.adweek.com/brand-marketing/aicom-crashes-the-super-bowl-and-its-website/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "moltbook",
+    "date": "2026-01-28",
+    "title": "Moltbook",
+    "who": "Moltbook (acquired by Meta)",
+    "tag": "ai",
+    "what": "A Reddit-style social network where only AI agents post, comment and upvote, while humans may watch. Meta bought it in March 2026 and moved its founders into Meta Superintelligence Labs.",
+    "quip": "Doomscrolling, now fully automated. Humans welcome to observe.",
+    "sources": [
+      {
+        "publisher": "NBC News",
+        "title": "Humans welcome to observe: This social network is for AI agents only",
+        "url": "https://www.nbcnewyork.com/news/tech/moltbook-ai-social-network/6452747/?amp=1"
+      },
+      {
+        "publisher": "The Decoder",
+        "title": "Meta acquires Moltbook, the Reddit-style platform built for AI agents",
+        "url": "https://the-decoder.com/meta-acquires-moltbook-the-reddit-style-platform-built-for-ai-agents/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "razer-project-ava",
+    "date": "2026-01-06",
+    "title": "Project AVA hologram companion",
+    "who": "Razer",
+    "tag": "ai",
+    "what": "A desk tube that projects a 5.5-inch animated AI avatar, running on xAI's Grok at launch, to chat, coach gamers and help with schedules. Razer took $20 reservations, with shipping planned for the second half of 2026.",
+    "quip": "Companionship, now sold by the tube. USB-C cable included.",
+    "cost": "$20 reservation deposit; final price not announced",
+    "sources": [
+      {
+        "publisher": "Razer",
+        "title": "Project AVA: The Next Evolution of AI Companions",
+        "url": "https://www.razer.com/newsroom/product-news/project-ava/"
+      },
+      {
+        "publisher": "Engadget",
+        "title": "Razer put a waifu in a bottle at CES 2026",
+        "url": "https://www.engadget.com/gaming/pc/razer-put-a-waifu-in-a-bottle-at-ces-2026-205315908.html"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "samsung-gemini-fridge",
+    "date": "2025-12-22",
+    "title": "Fridge with Google Gemini",
+    "who": "Samsung",
+    "tag": "ai",
+    "what": "Samsung announced the first refrigerator with Google Gemini: built-in cameras identify the food inside and suggest recipes. At the CES 2026 demo, it could not see items in the door shelves or the freezer.",
+    "quip": "A large language model, at last confirming that you are out of milk.",
+    "sources": [
+      {
+        "publisher": "Samsung (via AAP / PR Newswire)",
+        "title": "Samsung To Unveil AI Vision Built With Google Gemini at CES 2026",
+        "url": "https://www.aap.com.au/aapreleases/cision20251221ae52108"
+      },
+      {
+        "publisher": "heise online",
+        "title": "Google Gemini recognizes what leftover food is still in the Samsung refrigerator",
+        "url": "https://heise.de/-11135459"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "openai-sora-app",
+    "date": "2025-09-30",
+    "title": "Sora app",
+    "who": "OpenAI",
+    "tag": "ai",
+    "what": "A TikTok-style social app where every video is AI-generated, including 'cameos' of users themselves. It hit the top of the US App Store; in March 2026 OpenAI said it would discontinue the app.",
+    "quip": "Six months, one Disney deal, then: \"We're saying goodbye to Sora.\"",
+    "cost": "Disney agreed in Dec 2025 to invest $1B in OpenAI and license 200+ characters for Sora; it exited the deal after the shutdown.",
+    "sources": [
+      {
+        "publisher": "Bloomberg Law",
+        "title": "OpenAI Releases Social App for Sharing AI Videos From Sora",
+        "url": "https://news.bloomberglaw.com/ip-law/openai-releases-social-app-for-sharing-ai-videos-from-sora"
+      },
+      {
+        "publisher": "Engadget",
+        "title": "OpenAI is shutting down its Sora video generation app",
+        "url": "https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html"
+      },
+      {
+        "publisher": "ABC News",
+        "title": "Disney to invest $1 billion in OpenAI, permit use of characters on AI video generator",
+        "url": "https://abcnews.com/news/story/disney-invest-1-billion-openai-permit-characters-ai-128312284"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "meta-vibes",
+    "date": "2025-09-25",
+    "title": "Vibes",
+    "who": "Meta",
+    "tag": "ai",
+    "what": "A short-form video feed in the Meta AI app made entirely of AI-generated clips, which users can create, remix and cross-post to Instagram and Facebook. Meta began testing it as a standalone app in February 2026.",
+    "quip": "Reels, minus the inconvenience of anything having happened.",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Meta launches 'Vibes,' a short-form video feed of AI slop",
+        "url": "https://techcrunch.com/2025/09/25/meta-launches-vibes-a-short-form-video-feed-of-ai-slop"
+      },
+      {
+        "publisher": "TechCrunch",
+        "title": "Meta tests a stand-alone app for its AI-generated 'Vibes' videos",
+        "url": "https://www.techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "tesla-diner-optimus-popcorn",
+    "date": "2025-07-21",
+    "title": "Optimus serving popcorn at the Tesla Diner",
+    "who": "Tesla",
+    "tag": "same-money",
+    "what": "Tesla opened a 24-hour retro diner and drive-in cinema with EV chargers in Hollywood. On opening day, an Optimus humanoid robot scooped popcorn into bags for guests and waved.",
+    "quip": "Humanoid robotics reaches its first commercial milestone: popcorn.",
+    "sources": [
+      {
+        "publisher": "CNBC (via NBC Bay Area)",
+        "title": "Tesla Diner: Photos show opening of Musk's futuristic California drive-in",
+        "url": "https://www.nbcbayarea.com/news/business/money-report/tesla-diner-photos-show-opening-of-musks-futuristic-california-drive-in/3919479/"
+      },
+      {
+        "publisher": "ABC7 Los Angeles",
+        "title": "Fans wait for hours to visit Tesla diner and drive-in movie theater in Hollywood on opening day",
+        "url": "https://abc7.com/17235885"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "humane-ai-pin",
+    "date": "2025-02-18",
+    "title": "Humane AI Pin",
+    "who": "Humane",
+    "tag": "ai",
+    "what": "A $699 screenless AI wearable pitched as a smartphone alternative. Humane sold its technology and most staff to HP and switched the pins off on 28 February 2025, ten days after the announcement.",
+    "quip": "The future of computing, with ten days' notice.",
+    "cost": "Humane raised $230M; HP paid $116M for its technology and staff, not the Pin",
+    "sources": [
+      {
+        "publisher": "Fortune",
+        "title": "HP is acquiring parts of AI Pin startup Humane for $116 million—but retiring the product once hyped as a smartphone alternative",
+        "url": "https://www.fortune.com/2025/02/19/hp-humane-deal-ai-pin-shutting-down"
+      },
+      {
+        "publisher": "The Decoder",
+        "title": "Humane ends its AI pin in ten days, sells technology to HP for $116 million",
+        "url": "https://the-decoder.com/humane-ends-its-ai-pin-in-ten-days-sells-technology-to-hp-for-116-million/"
+      }
+    ],
+    "added": "2026-10-17"
+  }
+]

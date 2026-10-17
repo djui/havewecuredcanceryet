@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src https://api.github.com; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Newsroom</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
+<script src="/admin.js" defer></script>
+</head>
+<body data-repo="{{REPO}}">
+<header class="masthead">
+  <span class="masthead-left">Newsroom</span>
+  <a class="masthead-name" href="/">havewecuredcanceryet.org</a>
+  <span class="masthead-right">Editors only</span>
+</header>
+<main class="admin">
+  <p class="kicker">Newsroom</p>
+  <h1>Find the latest misuse</h1>
+  <p>This starts the search on GitHub. New finds arrive as a pull request in a few minutes. Merging it publishes them; closing it throws them away.</p>
+
+  <label for="token">GitHub token</label>
+  <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+  <div class="row">
+    <label class="check"><input id="remember" type="checkbox"> Remember on this device</label>
+    <button type="button" id="forget">Forget token</button>
+  </div>
+  <details>
+    <summary>Which token?</summary>
+    <ol>
+      <li>Open <a href="https://github.com/settings/personal-access-tokens/new" rel="noopener">GitHub &rarr; Fine-grained tokens &rarr; Generate new token</a>.</li>
+      <li>Repository access: <em>Only select repositories</em> &rarr; <code>{{REPO}}</code>.</li>
+      <li>Permissions &rarr; Repository: <em>Actions: Read and write</em>. Nothing else.</li>
+    </ol>
+    <p>The token only goes to api.github.com. With &ldquo;Remember&rdquo; on, it's kept in this browser's local storage and nowhere else.</p>
+  </details>
+
+  <label for="hint">Hint (optional)</label>
+  <textarea id="hint" maxlength="500" placeholder="Leave empty to find whatever is newest. Or: “the new AI fridge from that CES keynote”"></textarea>
+
+  <div class="row">
+    <button type="button" class="primary" id="run">Find the latest misuse</button>
+  </div>
+  <p class="status" id="status" role="status" aria-live="polite"></p>
+
+  <h2>Waiting for your approval</h2>
+  <ul class="list" id="prs"><li class="small">Loading&hellip;</li></ul>
+
+  <h2>Recent searches</h2>
+  <ul class="list" id="runs"><li class="small">Loading&hellip;</li></ul>
+</main>
+</body>
+</html>

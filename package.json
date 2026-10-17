@@ -1,0 +1,18 @@
+{
+  "name": "havewecuredcanceryet",
+  "private": true,
+  "type": "module",
+  "description": "Have we cured cancer yet? No. A sourced log of what we point AI at instead.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "find": "node scripts/find-misuse.mjs",
+    "og": "rsvg-convert -w 1200 -h 630 public/og.svg -o public/og.png"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  }
+}

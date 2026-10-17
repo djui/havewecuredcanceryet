@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#f5f2ea"/>
+  <text x="29" y="50" text-anchor="middle" font-family="Iowan Old Style, Palatino, Georgia, serif" font-weight="700" font-size="48" fill="#151413">N</text>
+  <circle cx="53" cy="46" r="5" fill="#c8102e"/>
+</svg>

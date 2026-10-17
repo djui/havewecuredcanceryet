@@ -1,0 +1,132 @@
+{
+  "deaths": {
+    "value": 9800000,
+    "year": 2024,
+    "label": "Cancer deaths worldwide in 2024",
+    "sources": [
+      {
+        "publisher": "IARC / WHO",
+        "title": "Global cancer statistics 2024: GLOBOCAN estimates of incidence and mortality worldwide for 34 cancers in 186 countries",
+        "url": "https://www.iarc.who.int/news-events/global-cancer-statistics-2024-globocan-estimates-of-incidence-and-mortality-worldwide-for-34-cancers-in-186-countries/"
+      },
+      {
+        "publisher": "American Cancer Society",
+        "title": "American Cancer Society Reports Latest Global Cancer Statistics; Cancer Cases Approach 21 Million Worldwide With Burden Projected to Surge 67% by 2050",
+        "url": "https://pressroom.cancer.org/global-cancer-statistics-2026"
+      }
+    ]
+  },
+  "newCases": {
+    "value": 20600000,
+    "year": 2024,
+    "label": "New cancer cases worldwide in 2024",
+    "sources": [
+      {
+        "publisher": "IARC / WHO",
+        "title": "Global cancer statistics 2024: GLOBOCAN estimates of incidence and mortality worldwide for 34 cancers in 186 countries",
+        "url": "https://www.iarc.who.int/news-events/global-cancer-statistics-2024-globocan-estimates-of-incidence-and-mortality-worldwide-for-34-cancers-in-186-countries/"
+      },
+      {
+        "publisher": "American Cancer Society",
+        "title": "American Cancer Society Reports Latest Global Cancer Statistics; Cancer Cases Approach 21 Million Worldwide With Burden Projected to Surge 67% by 2050",
+        "url": "https://pressroom.cancer.org/global-cancer-statistics-2026"
+      }
+    ]
+  },
+  "aiCapex": {
+    "value": 732500000000,
+    "year": 2026,
+    "label": "Combined 2026 capital spending guidance of Amazon, Microsoft, Alphabet and Meta, mostly for AI data centres",
+    "note": "Company guidance, not actual spend. Alphabet ($195-205B) and Meta ($130-145B, incl. finance-lease principal) gave ranges; midpoints used. Microsoft's $175B is its calendar-2026 reported-capex estimate after a lease-accounting change; its previous estimate was $190B. Amazon: about $220B.",
+    "breakdown": [
+      {
+        "who": "Amazon",
+        "value": 220000000000
+      },
+      {
+        "who": "Alphabet",
+        "value": 200000000000
+      },
+      {
+        "who": "Microsoft",
+        "value": 175000000000
+      },
+      {
+        "who": "Meta",
+        "value": 137500000000
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "Fortune",
+        "title": "Andy Jassy said Amazon will spend $220 billion this year—and still won't have enough capacity to meet demand",
+        "url": "https://fortune.com/2026/07/30/andy-jassy-amazon-capex-demand-aws-pga-tour/"
+      },
+      {
+        "publisher": "W.Media",
+        "title": "AI infrastructure demand pushes Alphabet's 2026 capex guidance to US$ 205 billion",
+        "url": "https://w.media/ai-infrastructure-demand-pushes-alphabets-2026-capex-guidance-to-us-205-billion/"
+      },
+      {
+        "publisher": "Reuters (via The Star)",
+        "title": "Microsoft sees strong cash flow, lower capex",
+        "url": "https://www.thestar.com.my/business/business-news/2026/07/31/microsoft-sees-strong-cash-flow-lower-capex"
+      },
+      {
+        "publisher": "Meta",
+        "title": "Meta Reports Second Quarter 2026 Results",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+      }
+    ],
+    "short": "Big Tech AI capital spending, 2026"
+  },
+  "cancerFunding": {
+    "value": 7350000000,
+    "year": 2026,
+    "short": "US National Cancer Institute budget, 2026",
+    "label": "Fiscal year 2026 budget of the US National Cancer Institute, the largest funder of cancer research in the world",
+    "note": "For a wider view: a 2025 Lancet Oncology analysis counted about $51.4B in public and philanthropic cancer research awards worldwide over 2016–2023, roughly $6.4B a year (an earlier 2023 analysis found about $24.5B over 2016–2020). These count research awards only, which is why NCI’s budget alone is larger.",
+    "sources": [
+      {
+        "publisher": "National Cancer Institute",
+        "title": "Budget and Appropriations",
+        "url": "https://cancer.gov/about-nci/budget/"
+      },
+      {
+        "publisher": "University of Southampton",
+        "title": "Study reveals global inequalities in cancer research funding",
+        "url": "https://www.southampton.ac.uk/news/2025/09/study-reveals-global-inequalities-in-cancer-research-funding.page"
+      }
+    ]
+  },
+  "curable": {
+    "text": "Thanks to decades of research, screening and better treatment, some cancers are now often curable: about 90% of children with acute lymphoblastic leukaemia survive five years, and 99% with early testicular cancer (US data).",
+    "sources": [
+      {
+        "publisher": "American Cancer Society",
+        "title": "Prognostic Factors and Survival Rates for Childhood Leukemia",
+        "url": "https://www.cancer.org/cancer/types/leukemia-in-children/detection-diagnosis-staging/survival-rates.html"
+      },
+      {
+        "publisher": "American Cancer Society",
+        "title": "Survival Rates for Testicular Cancer",
+        "url": "https://www.cancer.org/cancer/types/testicular-cancer/detection-diagnosis-staging/survival-rates.html"
+      }
+    ]
+  },
+  "aiCured": {
+    "text": "None has been cured by AI. As of October 2026, no AI-discovered drug has full FDA approval for any disease.",
+    "sources": [
+      {
+        "publisher": "IntuitionLabs",
+        "title": "AI Drug Discovery FDA Approvals: The 2026 Reality Check",
+        "url": "https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals"
+      },
+      {
+        "publisher": "Clinical Research News",
+        "title": "Insilico Medicine Launches Phase III Trial for AI-Developed Drug",
+        "url": "https://www.clinicalresearchnewsonline.com/news/2026/07/08/insilico-medicine-launches-phase-iii-trial-for-ai-developed-drug"
+      }
+    ]
+  }
+}
