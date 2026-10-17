@@ -45,7 +45,7 @@ ANTHROPIC_API_KEY=... HINT="optional lead" node scripts/find-misuse.mjs   # edit
 `npm run social` renders ready-to-post slides from `data/*.json` into `social/<date>-<mode>/` (git-ignored), using a local Chrome, Chromium or Edge (`CHROME_PATH` to override):
 
 - `carousel/*.png`: 1080×1350 slides: question → **No.** → the money bar → one slide per entry → "It's not the tool. It's the aim." → link in bio
-- `story.png` and `reel-cover.png`: 1080×1920, with the key content kept clear of Instagram's own UI and the profile-grid crop
+- `story.png`, `reel-cover.png` and `reel.mp4` (about 15 s of hard cuts: question → **No.** → five entries → the money bar → the URL; silent, so add a sound in Instagram; needs `ffmpeg`): 1080×1920, with the key content kept clear of Instagram's own UI and the profile-grid crop
 - `caption.txt` and `first-comment.txt` (sources, slide by slide; pin it)
 
 ```bash
