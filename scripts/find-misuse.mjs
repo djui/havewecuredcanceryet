@@ -13,7 +13,8 @@ const MODEL = "claude-sonnet-5-5";
 const MAX_SEARCHES = 8;
 const MAX_FETCHES = 6;
 const MAX_CANDIDATES = 3;
-const MAX_TURNS = 6;
+const MAX_TURNS = 6; // includes resumed server-tool turns (pause_turn)
+const MAX_NUDGES = 2; // "please submit now" reminders when the model stops without submitting
 const ENTRIES = "data/entries.json";
 
 const today = new Date().toISOString().slice(0, 10);
@@ -89,8 +90,12 @@ const SUBMIT_TOOL = {
   input_schema: {
     type: "object",
     additionalProperties: false,
-    required: ["candidates"],
+    required: ["notes", "candidates"],
     properties: {
+      notes: {
+        type: "string",
+        description: "2-4 sentences for the editor: what you searched for, what you considered, and why these qualify or why nothing did.",
+      },
       candidates: {
         type: "array",
         items: {
@@ -139,6 +144,10 @@ const client = new Anthropic();
 const messages = [{ role: "user", content: userPrompt }];
 const usage = { input: 0, output: 0, searches: 0 };
 let submitted = null;
+let editorNotes = "";
+let outcome = "never submitted";
+let lastText = "";
+let nudges = 0;
 
 for (let turn = 0; turn < MAX_TURNS && !submitted; turn++) {
   const response = await client.beta.messages.create({
@@ -160,19 +169,26 @@ for (let turn = 0; turn < MAX_TURNS && !submitted; turn++) {
   usage.output += response.usage.output_tokens;
   usage.searches += response.usage.server_tool_use?.web_search_requests ?? 0;
 
+  const call = response.content.find((b) => b.type === "tool_use" && b.name === "submit_candidates");
+  const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join(" ").trim();
+  if (text) lastText = text;
+  console.log(`Turn ${turn + 1}: stop=${response.stop_reason}, searches so far=${usage.searches}, submitted=${Boolean(call)}`);
+
   if (response.stop_reason === "refusal") {
-    console.log(`Model declined (${response.stop_details?.category ?? "no category"}). No candidates.`);
+    outcome = `declined (${response.stop_details?.category ?? "no category"})`;
     break;
   }
 
-  const call = response.content.find((b) => b.type === "tool_use" && b.name === "submit_candidates");
   if (call) {
     submitted = call.input.candidates;
+    editorNotes = call.input.notes ?? "";
+    outcome = `submitted ${submitted.length} candidate${submitted.length === 1 ? "" : "s"}`;
     break;
   }
 
   messages.push({ role: "assistant", content: response.content });
   if (response.stop_reason === "pause_turn") continue;
+  if (++nudges > MAX_NUDGES) break;
   messages.push({ role: "user", content: "Please finish now: call submit_candidates with your final list (it may be empty)." });
 }
 
@@ -259,6 +275,7 @@ if (accepted.length) {
     "",
     "**Merge** to publish, **close** to discard. You can edit the wording in this pull request before merging (Files changed → edit `data/entries.json`).",
     "",
+    ...(editorNotes ? [`**Searcher's notes:** ${editorNotes}`, ""] : []),
     ...accepted.flatMap(({ entry: e, notes }) => [
       `### ${e.title}`,
       `${e.who} · ${e.date} · ${e.tag === "same-money" ? "Same money, different toy" : "AI"}${e.cost ? ` · ${e.cost}` : ""}`,
@@ -281,7 +298,38 @@ if (accepted.length) {
 }
 
 for (const r of rejected) console.log(`Rejected "${r.title}": ${r.why.join(", ")}`);
-console.log(accepted.length ? `Added ${accepted.length}: ${accepted.map((a) => a.entry.title).join(" | ")}` : "Nothing new today.");
+const neverSubmitted = submitted === null && !outcome.startsWith("declined");
+const verdict = accepted.length
+  ? `Added ${accepted.length}: ${accepted.map((a) => a.entry.title).join(" | ")}`
+  : neverSubmitted
+    ? "Problem: the model never returned a list, so this run can't say whether anything new exists."
+    : outcome.startsWith("declined")
+      ? `The model ${outcome}; no candidates.`
+      : submitted.length
+        ? "The model suggested candidates, but all were rejected by the checks above."
+        : "The model searched and found nothing new that qualifies.";
+console.log(`Outcome: ${outcome}.`);
+if (editorNotes) console.log(`Searcher's notes: ${editorNotes}`);
+if (neverSubmitted && lastText) console.log(`Model's last words: ${lastText.slice(0, 600)}`);
+console.log(verdict);
+
+// Shown at the top of the run's page on GitHub, so nobody has to read the log.
+if (process.env.GITHUB_STEP_SUMMARY) {
+  const summary = [
+    `### ${accepted.length ? "New candidates: pull request opened" : neverSubmitted ? "⚠️ Search didn't finish properly" : "Nothing new"}`,
+    "",
+    verdict,
+    "",
+    hint ? `**Hint:** ${hint}` : "**Hint:** none (daily search)",
+    `**Model:** ${outcome} · ${usage.searches} searches · ${usage.input} input / ${usage.output} output tokens`,
+    ...(editorNotes ? ["", `**Searcher's notes:** ${editorNotes}`] : []),
+    ...(rejected.length ? ["", "**Rejected:**", ...rejected.map((r) => `- ${r.title}: ${r.why.join(", ")}`)] : []),
+    ...(neverSubmitted && lastText ? ["", `**Model's last words:** ${lastText.slice(0, 600)}`] : []),
+    "",
+  ].join("\n");
+  await appendFile(process.env.GITHUB_STEP_SUMMARY, summary);
+}
+if (neverSubmitted) process.exitCode = 1;
 
 if (process.env.GITHUB_OUTPUT) {
   const title = outputs.title.replace(/[\r\n]/g, " ");

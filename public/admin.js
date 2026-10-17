@@ -86,7 +86,7 @@ async function refresh() {
       runs.map((r) => ({
         href: r.html_url,
         text: `${r.event === "schedule" ? "Daily search" : "Manual search"} · ${r.status === "completed" ? r.conclusion : r.status.replace("_", " ")}`,
-        detail: ago(r.created_at),
+        detail: `${ago(r.created_at)} · open it to see what was searched and why`,
       })),
       "No searches yet.",
     );
