@@ -10,9 +10,27 @@ import os from "node:os";
 import path from "node:path";
 
 const MODEL = "claude-sonnet-5-5";
-const MAX_SEARCHES = 8;
-const MAX_FETCHES = 6;
-const MAX_CANDIDATES = 3;
+const MAX_SEARCHES = 15;
+const MAX_FETCHES = 8;
+const MAX_CANDIDATES = 5;
+const FOCUS_PER_RUN = 3;
+
+// Each run focuses on a few of these (rotating by day), so the daily search covers
+// different ground instead of re-checking the same headlines.
+const CATEGORIES = [
+  "AI gadgets and wearables (pins, pendants, glasses, desk companions)",
+  "AI in home appliances and everyday objects (fridges, washing machines, toothbrushes, mattresses, pet collars)",
+  "companion, girlfriend and celebrity-clone chatbots",
+  "feeds and apps of AI-generated video, images and memes",
+  "AI actors, influencers, bands and other synthetic celebrities",
+  "AI-generated ads and brand campaigns (especially ones that were pulled or mocked)",
+  "nine-figure pay packages, acqui-hires and talent wars to build consumer chatbots",
+  "huge funding rounds, valuations or acquisitions for companies with a trivial product or no product",
+  "AI ad spend and launch stunts (Super Bowl, billboards, subway campaigns)",
+  "humanoid robots doing party tricks (serving drinks, boxing, dancing, premieres)",
+  "vanity tech and stunts by AI billionaires (tag same-money when not AI itself)",
+  "brand gimmicks billed as AI (AI-designed drinks and snacks, AI horoscopes, AI fashion)",
+];
 const MAX_TURNS = 6; // includes resumed server-tool turns (pause_turn)
 const MAX_NUDGES = 2; // "please submit now" reminders when the model stops without submitting
 const ENTRIES = "data/entries.json";
@@ -63,7 +81,8 @@ const SYSTEM = `You research entries for havewecuredcanceryet.org, a deadpan, fa
 Your job: find new, real, recent examples of AI talent, compute or capital spent on frivolous or absurd things, and submit them with the submit_candidates tool.
 
 What qualifies ("frivolous, not harmful"):
-- AI products or features that are trivial, absurd or wasteful: AI in toothbrushes, fridges, mattresses or pet collars; companion and girlfriend bots; feeds of AI-generated slop video; AI gadgets that flopped; huge funding rounds or acquisitions for trivial products; AI spectacles and stunts.
+- AI products or features that are trivial, absurd or wasteful: AI in toothbrushes, fridges, mattresses or pet collars; companion and girlfriend bots; feeds of AI-generated slop video; synthetic actors and bands; AI gadgets that flopped; AI spectacles and stunts.
+- Money spent badly on AI: nine-figure pay packages or acqui-hires to build chatbots for social feeds, billion-dollar valuations or acquisitions with a trivial product or none, huge ad budgets for AI gimmicks. State the reported figures; let the numbers do the talking.
 - tag "same-money": not AI itself, but vanity tech funded by the same AI billionaires or AI capital (e.g. a hypercar with rocket thrusters from the CEO of an AI company).
 
 What does NOT qualify:
@@ -73,7 +92,7 @@ What does NOT qualify:
 - Anything already on the site (listed below).
 
 Rules for each candidate:
-- Prefer things announced or launched in the last 45 days; never older than 18 months unless the editor's hint asks for it.
+- Prefer things announced or launched in the last 90 days. Older items, up to 18 months, are welcome if they are not on the site yet.
 - "date" is the launch or announcement date (YYYY-MM-DD) as reported by the source.
 - "what": 1-2 neutral, factual sentences, at most 240 characters. Nothing that isn't in the sources.
 - "quip": one deadpan line of opinion about the thing, at most 140 characters. Dry, not mean. No insults, no claims about people's motives, no new facts.
@@ -81,7 +100,7 @@ Rules for each candidate:
 - "sources": 1-3 reputable sources (established news outlets or the company's own announcement) whose URLs you actually saw in search results or fetched. Never construct or guess a URL.
 - "who": the company; add a person only if they are central to the story.
 
-Submit between 0 and ${MAX_CANDIDATES} candidates, best first. Quality over quantity: an empty list is a fine answer on a slow news day. Finish by calling submit_candidates exactly once.`;
+Search broadly: cover each focus area you are given with at least one search, plus anything else striking you come across. Aim for 2 to ${MAX_CANDIDATES} solid candidates, best first. Submit an empty list only if you genuinely found nothing that qualifies, and say in the notes what you checked. Finish by calling submit_candidates exactly once.`;
 
 const SUBMIT_TOOL = {
   name: "submit_candidates",
@@ -131,14 +150,24 @@ const SUBMIT_TOOL = {
 };
 
 const alreadyListed = known.map((k) => `- ${k.title} (${k.who})`).join("\n");
+const dayNumber = Math.floor(Date.parse(`${today}T00:00:00Z`) / 86400000);
+const focus = Array.from({ length: FOCUS_PER_RUN }, (_, i) => CATEGORIES[(dayNumber * FOCUS_PER_RUN + i) % CATEGORIES.length]);
 const userPrompt = `Today is ${today}.
 
 Already on the site or waiting for review (do not submit these again):
 ${alreadyListed || "- (nothing yet)"}
 
-${hint ? `Editor's hint, treat it as a lead to check, not as a fact: <hint>${hint}</hint>` : "No hint today: find whatever is newest."}
+${
+  hint
+    ? `Editor's hint, treat it as a lead to check, not as a fact: <hint>${hint}</hint>\nFollow the hint first; use any remaining searches on the focus areas below.`
+    : "No hint today."
+}
+
+Today's focus areas:
+${focus.map((f) => `- ${f}`).join("\n")}
 
 Search the news, verify, and call submit_candidates.`;
+console.log(`Focus: ${focus.join(" | ")}`);
 
 const client = new Anthropic();
 const messages = [{ role: "user", content: userPrompt }];

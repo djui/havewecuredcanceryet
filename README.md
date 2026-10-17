@@ -7,7 +7,7 @@
 - `data/*.json` holds everything on the page: the misuse feed (`entries.json`), the good stuff (`good.json`), the headline numbers (`stats.json`), where to help (`help.json`) and site settings (`site.json`).
 - `scripts/build.mjs` renders `dist/` (HTML, RSS, admin page). No dependencies.
 - **Deploy:** every push to `main` validates the data, builds and publishes to GitHub Pages (`.github/workflows/deploy.yml`).
-- **Finding new misuse:** `.github/workflows/find-misuse.yml` runs daily at 06:17 UTC, and on demand. It asks Claude Sonnet 5.5 (with web search) for up to 3 new, sourced entries, checks the links, and opens a pull request labelled `misuse-candidate`. **Merge = publish. Close = discard.** You can edit wording in the PR before merging.
+- **Finding new misuse:** `.github/workflows/find-misuse.yml` runs daily at 06:17 UTC, and on demand. It asks Claude Sonnet 5.5 (with up to 15 web searches) for up to 5 new, sourced entries, focusing on 3 of 12 rotating areas each day (gadgets, companions, AI slop, synthetic celebrities, AI ads, talent-war pay, no-product valuations, robots doing party tricks, billionaire vanity tech, …), checks the links, and opens a pull request labelled `misuse-candidate`. Each run's page on GitHub shows a summary with the model's notes. **Merge = publish. Close = discard.** You can edit wording in the PR before merging.
 - **Asking on demand:** open `/admin/` on the site, paste a GitHub token once, optionally type a hint, press the button. Or use *Actions → Find latest misuse → Run workflow* on GitHub.
 
 ## One-time setup
