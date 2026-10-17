@@ -28,6 +28,68 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-10-gods-dont-give-gifts",
+    "date": "2026-10-08",
+    "title": "Gods Don't Give Gifts",
+    "who": "Fable (Edward Saatchi) and YouTuber Gossip Goblin",
+    "tag": "ai",
+    "what": "A feature film made entirely with AI received an R rating from the MPA, which its makers call a first. Fable plans a limited US theatrical run on Dec. 4 and an Oscar campaign for Best Animated Feature.",
+    "quip": "Rated R, for a cast that never had to show up.",
+    "sources": [
+      {
+        "publisher": "Futurism",
+        "title": "The First Fully AI-Generated Movie to Receive an MPA Rating Is Making a Push for an Academy Award, But We Wouldn't Hold Our Breath",
+        "url": "https://futurism.com/artificial-intelligence/first-fully-ai-movie-mpa-academy-award"
+      },
+      {
+        "publisher": "Variety",
+        "title": "AI Film 'Gods Don't Give Gifts' Sets First Trailer for December Theatrical Run, Plans Oscar Bid for Best Animated Feature",
+        "url": "https://variety.com/2026/film/news/ai-film-gods-dont-give-gifts-sets-trailer-plans-oscar-bid-1236897843/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-09-dyson-camerajet",
+    "date": "2026-09-01",
+    "title": "CameraJet toothbrush",
+    "who": "Dyson",
+    "tag": "ai",
+    "what": "An electric toothbrush with a camera under the brush head. AI scans 28 images a second for gaps between teeth and fires mouthrinse into them within 100 milliseconds. Dyson says images are processed on the device.",
+    "quip": "Finally, a toothbrush that can see what you had for lunch.",
+    "cost": "$499 in the US",
+    "sources": [
+      {
+        "publisher": "The Next Web",
+        "title": "Dyson has built a toothbrush with a camera in it, for $499",
+        "url": "https://thenextweb.com/news/dyson-camerajet-toothbrush-camera-jet"
+      },
+      {
+        "publisher": "Fox Business",
+        "title": "Dyson launches $499 toothbrush with built-in camera, AI technology",
+        "url": "https://foxbusiness.com/technology/dyson-launches-499-toothbrush-built-in-camera-ai-technology"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-08-robot-100m-record",
+    "date": "2026-08-25",
+    "title": "Robot 100-metre record",
+    "who": "World Humanoid Robot Games, Beijing",
+    "tag": "ai",
+    "what": "At the second World Humanoid Robot Games in Beijing, a Chinese humanoid ran 100 metres in 8.86 seconds, faster than Usain Bolt's 9.58. It then fell and hit a padded barrier, with sparks flying from its waist.",
+    "quip": "Faster than Usain Bolt. Stopping is planned for a later release.",
+    "sources": [
+      {
+        "publisher": "Associated Press (via WCAX)",
+        "title": "A Chinese humanoid robot sets a new 100-meter sprint record at Beijing Games",
+        "url": "https://www.wcax.com/2026/08/25/chinese-humanoid-robot-sets-new-100-meter-sprint-record-beijing-games/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
     "id": "friend-2-ai-pendant",
     "date": "2026-07-30",
     "title": "Friend 2.0 pendant",
@@ -51,6 +113,130 @@
         "publisher": "404 Media",
         "title": "AI 'Friend' Company Spent $1.8 Million and Most of Its Funds on Domain Name",
         "url": "https://404media.co/ai-friend-company-spent-1-8-million-and-most-its-funds-on-domain-name"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-07-moscow-robot-wedding",
+    "date": "2026-07-08",
+    "title": "Robot wedding at the Pushkin Library",
+    "who": "Pushkin Library, Moscow",
+    "tag": "ai",
+    "what": "Two humanoid robots, Robert and Matilda, exchanged pre-programmed vows and bracelets, brought by a robot dog, at a Moscow library on Russia's Day of Family, Love and Fidelity. Organisers called it a symbolic tech demonstration.",
+    "quip": "In sickness and in firmware.",
+    "sources": [
+      {
+        "publisher": "The Business Standard",
+        "title": "Till code do us part: 2 humanoid robots exchange vows in Moscow wedding",
+        "url": "https://www.tbsnews.net/node/1491241"
+      },
+      {
+        "publisher": "Interesting Engineering",
+        "title": "Meet Russia's First Officially Married Robot Couple",
+        "url": "https://interestingengineering.com/videos/meet-russias-first-officially-married-robot-couple"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-06-ubtech-u1-companion",
+    "date": "2026-06-30",
+    "title": "U1 companion humanoid",
+    "who": "UBTech (UWorld)",
+    "tag": "ai",
+    "what": "UBTech unveiled the U1, a full-size humanoid sold as an AI companion for households, and said it had over 11,000 orders. Its battery lasts two to four hours, which the company says is normal for full-size humanoids.",
+    "quip": "A companion for the evening, provided the evening ends after four hours.",
+    "cost": "119,800 to 990,000 yuan (about $17,600 to $145,000), with a 3,000-yuan deposit",
+    "sources": [
+      {
+        "publisher": "TechNode",
+        "title": "UBTECH unveils consumer humanoid robot U1, says orders secure 11,000 ahead of first deliveries",
+        "url": "https://technode.com/2026/07/01/ubtech-unveils-consumer-humanoid-robot-u1-says-orders-secure-11000-ahead-of-first-deliveries/"
+      },
+      {
+        "publisher": "TechNode",
+        "title": "UBTECH says full-size humanoid robots typically run for only two to four hours amid U1 battery criticism",
+        "url": "https://technode.com/2026/07/06/ubtech-says-full-size-humanoid-robots-typically-run-for-only-two-to-four-hours-amid-u1-battery-criticism/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-05-pettichat-pet-translator",
+    "date": "2026-05-27",
+    "title": "PettiChat pet translator collar",
+    "who": "PettiChat",
+    "tag": "ai",
+    "what": "A Hangzhou startup's AI collar claims to turn dog and cat sounds into text on a phone with 94.6% accuracy, and to play human speech back as animal-like sounds. No data backing the accuracy claim has been published.",
+    "quip": "Proof at last that the cat has opinions, pending peer review.",
+    "cost": "About 800 yuan; $119 on Kickstarter, $149 overseas",
+    "sources": [
+      {
+        "publisher": "36Kr",
+        "title": "Can You Understand What Cats Are Saying by Wearing an 800-Yuan AI Collar?",
+        "url": "https://eu.36kr.com/en/p/3826677209911940"
+      },
+      {
+        "publisher": "ChannelNews",
+        "title": "New AI Collar Promises To Decode What Pets Are Really Saying",
+        "url": "https://www.channelnews.com.au/new-ai-collar-promises-to-decode-what-pets-are-really-saying/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-05-agibot-a2-met-gala",
+    "date": "2026-05-05",
+    "title": "AGIBOT A2 at the Met Gala",
+    "who": "AGIBOT",
+    "tag": "ai",
+    "what": "Chinese robotics firm AGIBOT took its full-size A2 humanoid to The Mark Hotel in New York ahead of the Met Gala, where it posed for photographers and served drinks to guests. It briefly got stuck leaving an elevator.",
+    "quip": "Dressed for the Met Gala, defeated by an elevator door.",
+    "sources": [
+      {
+        "publisher": "Interesting Engineering",
+        "title": "Fashion-able humanoid: China's Agibot A2 robot makes history with Met Gala debut",
+        "url": "https://interestingengineering.com/ai-robotics/agibot-a2-makes-history-at-met-gala"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-04-beijing-robot-half-marathon",
+    "date": "2026-04-19",
+    "title": "Robot half marathon in Beijing",
+    "who": "Beijing E-Town",
+    "tag": "ai",
+    "what": "A humanoid robot from smartphone maker Honor won Beijing's robot half marathon in 50 minutes 26 seconds, faster than the human world record. About 40% of the robots navigated on their own; the rest were remote-controlled.",
+    "quip": "A year ago the winner took 2 hours 40. The progress is real; the destination is a finish line.",
+    "sources": [
+      {
+        "publisher": "Associated Press (via Anchorage Daily News)",
+        "title": "A humanoid robot sprints to victory in Beijing, beating the human half-marathon world record",
+        "url": "https://www.adn.com/nation-world/2026/04/19/a-humanoid-robot-sprints-to-victory-in-beijing-beating-the-human-half-marathon-world-record/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-03-eddie-dalton",
+    "date": "2026-03-31",
+    "title": "Eddie Dalton",
+    "who": "Crunchy Records (Dallas Little)",
+    "tag": "ai",
+    "what": "An AI-generated blues singer, drawn as a grey-haired crooner, held 11 spots on the iTunes top 100 at once, and his debut album reached No. 3 on the iTunes chart.",
+    "quip": "A weathered bluesman who has never had the blues, or a body.",
+    "sources": [
+      {
+        "publisher": "Newsweek",
+        "title": "New Singer Dominating iTunes Chart Is AI-Generated",
+        "url": "https://newsweek.com/new-singer-dominating-itunes-chart-is-ai-generated-11791886"
+      },
+      {
+        "publisher": "Il Sole 24 Ore",
+        "title": "The ghost at the top of the charts: what the Eddie Dalton case teaches us",
+        "url": "https://en.ilsole24ore.com/art/the-phantom-top-charts-what-eddie-dalton-case-teaches-us-AIFMKOTC"
       }
     ],
     "added": "2026-10-17"
@@ -96,6 +282,28 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-02-svedka-ai-super-bowl-ad",
+    "date": "2026-02-08",
+    "title": "Svedka's AI Super Bowl ad",
+    "who": "Svedka (Sazerac)",
+    "tag": "ai",
+    "what": "Vodka brand Svedka ran what was described as the first mostly AI-generated ad to air in a Super Bowl: a 30-second spot of a humanoid woman and a male companion dancing at a club, made largely by prompting AI models.",
+    "quip": "Super Bowl money, spent on a prompt.",
+    "sources": [
+      {
+        "publisher": "Semafor",
+        "title": "AI-generated ads hit the Super Bowl",
+        "url": "https://www.semafor.com/article/02/04/2026/first-entirely-ai-generated-ad-hits-the-super-bowl"
+      },
+      {
+        "publisher": "Adweek",
+        "title": "Svedka Bets on AI and Its Fembot to Make Super Bowl History",
+        "url": "https://www.adweek.com/creativity/svedka-bets-on-ai-and-its-fembot-to-make-super-bowl-history/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
     "id": "moltbook",
     "date": "2026-01-28",
     "title": "Moltbook",
@@ -113,6 +321,29 @@
         "publisher": "The Decoder",
         "title": "Meta acquires Moltbook, the Reddit-style platform built for AI agents",
         "url": "https://the-decoder.com/meta-acquires-moltbook-the-reddit-style-platform-built-for-ai-agents/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2026-01-humans-and-seed-round",
+    "date": "2026-01-20",
+    "title": "Humans& seed round",
+    "who": "Humans&",
+    "tag": "ai",
+    "what": "Humans&, an AI lab founded in September 2025 by researchers from Anthropic, xAI and Google, raised an all-cash seed round. It says it is building AI tools for how people work together; most of the money goes to compute.",
+    "quip": "Four months old, no product, $4.48 billion. The ampersand is doing a lot of work.",
+    "cost": "$480M seed round at a $4.48B valuation",
+    "sources": [
+      {
+        "publisher": "Crunchbase News",
+        "title": "Humans& Raises Huge $480M Seed Round At $4.48B Valuation For 'Human-Centric AI Lab'",
+        "url": "https://news.crunchbase.com/ai/humans-raises-huge-seed-round-unicorn-valuation/"
+      },
+      {
+        "publisher": "Bloomberg",
+        "title": "Nvidia, SV Angel Set to Back Humans& at $4.48 Billion Valuation",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-sv-angel-set-to-back-humans-at-4-48-billion-valuation"
       }
     ],
     "added": "2026-10-17"
@@ -163,6 +394,140 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2025-12-mcdonalds-ai-christmas-ad",
+    "date": "2025-12-06",
+    "title": "McDonald's AI Christmas ad",
+    "who": "McDonald's Netherlands",
+    "tag": "ai",
+    "what": "McDonald's Netherlands posted an AI-generated Christmas ad on YouTube, made by TBWA\\Neboko and The Sweetshop. It was taken down days later after viewers called it creepy and 'AI slop'.",
+    "quip": "A Christmas ad that became, in the company's words, 'an important learning'.",
+    "sources": [
+      {
+        "publisher": "SiliconANGLE",
+        "title": "Not ready? McDonald's AI-generated ad taken down after public backlash",
+        "url": "https://siliconangle.com/2025/12/10/not-ready-mcdonalds-ai-generated-ad-taken-public-backlash/"
+      },
+      {
+        "publisher": "TechRadar",
+        "title": "McDonald's pulls AI-generated Christmas ad after backlash over 'soulless' visuals and holiday chaos",
+        "url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-12-prime-video-ai-anime-dubs",
+    "date": "2025-12-02",
+    "title": "AI anime dubs on Prime Video",
+    "who": "Amazon Prime Video",
+    "tag": "ai",
+    "what": "Prime Video quietly added 'AI Beta' English dubs to anime including Banana Fish over Thanksgiving weekend. After fans and voice actors called them lifeless, the English tracks were removed within days.",
+    "quip": "Emotional anime, dubbed by a voice that has never felt anything. People noticed.",
+    "sources": [
+      {
+        "publisher": "Aftermath",
+        "title": "Bullying Works",
+        "url": "https://aftermath.site/prime-video-ai-beta-english-dub-anime-banana-fish-no-game-no-life/"
+      },
+      {
+        "publisher": "Anime Corner",
+        "title": "Amazon Removes Controversial AI English Dubs for Banana Fish & No Game, No Life Zero",
+        "url": "https://animecorner.me/amazon-removes-controversial-ai-english-dubs-for-banana-fish-no-game-no-life-zero/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-11-tesla-musk-trillion-pay",
+    "date": "2025-11-06",
+    "title": "Musk's $1 trillion pay package",
+    "who": "Tesla (Elon Musk)",
+    "tag": "same-money",
+    "what": "Tesla shareholders approved a stock award for Elon Musk worth up to about $1 trillion over a decade. Its targets include an $8.5 trillion market value, one million robotaxis and selling one million Optimus humanoid robots.",
+    "quip": "One million humanoid robots is now a compensation milestone.",
+    "cost": "Up to about $1 trillion in Tesla stock if every milestone is met",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "Tesla says shareholders approve Musk's $1 trillion pay plan with over 75% voting in favor",
+        "url": "https://www.cnbc.com/2025/11/06/tesla-shareholders-musk-pay.html"
+      },
+      {
+        "publisher": "Capital Brief",
+        "title": "Tesla shareholders approve USD1 trillion pay deal for Musk",
+        "url": "https://www.capitalbrief.com/briefing/tesla-shareholders-approve-usd1-trillion-pay-deal-for-musk-9f1140d6-e265-4571-8e4e-0f131300b07b/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-11-coca-cola-ai-holiday-ads",
+    "date": "2025-11-03",
+    "title": "Coca-Cola's AI holiday ads, again",
+    "who": "Coca-Cola",
+    "tag": "ai",
+    "what": "For a second year, Coca-Cola released AI-generated 'Holidays Are Coming' ads, made with Silverside and Secret Level. The AI produced over 70,000 video clips; the company said production took about a month instead of a year.",
+    "quip": "Seventy thousand clips in thirty days. The holidays are coming, and so is the render queue.",
+    "sources": [
+      {
+        "publisher": "TODAY (via NBC Washington)",
+        "title": "Coca-Cola releases another AI-generated holiday ad, despite last year's backlash",
+        "url": "https://www.nbcwashington.com/news/national-international/coca-cola-ai-generated-holiday-ad-backlash/4011268/"
+      },
+      {
+        "publisher": "The Decoder",
+        "title": "Coca-Cola once again turns to AI for its global \"Holidays Are Coming\" Christmas campaign",
+        "url": "https://the-decoder.com/coca-cola-once-again-turns-to-ai-for-its-global-holidays-are-coming-christmas-campaign/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-10-1x-neo-home-robot",
+    "date": "2025-10-29",
+    "title": "NEO home humanoid",
+    "who": "1X",
+    "tag": "ai",
+    "what": "1X opened pre-orders for NEO, a humanoid for household chores. For tasks it cannot do alone, a remote human operator steers it through its cameras. By June 2026, 1X said its first 10,000 had sold out; none had been delivered.",
+    "quip": "A robot butler, steered by a person, in your house. Also known as a butler.",
+    "cost": "$20,000, or $499 a month",
+    "sources": [
+      {
+        "publisher": "Engadget",
+        "title": "1X Neo is a $20,000 home robot that will learn chores via teleoperation",
+        "url": "https://www.engadget.com/ai/1x-neo-is-a-20000-home-robot-that-will-learn-chores-via-teleoperation-040252200.html"
+      },
+      {
+        "publisher": "TechCrunch",
+        "title": "Is Silicon Valley ready to put robots in people's homes? Hello Robot is.",
+        "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-10-optimus-tron-ares-premiere",
+    "date": "2025-10-06",
+    "title": "Optimus at the Tron: Ares premiere",
+    "who": "Tesla",
+    "tag": "ai",
+    "what": "Tesla's Optimus humanoid robot appeared at the Tron: Ares world premiere in Los Angeles and performed choreographed kung fu moves opposite actor Jared Leto. Tesla's clip of the face-off drew millions of views.",
+    "quip": "It came to the premiere and squared up to the lead actor. Very method.",
+    "sources": [
+      {
+        "publisher": "Interesting Engineering",
+        "title": "Video: Tesla's Optimus humanoid robot 'fights' Jared Leto at Tron: Ares premiere",
+        "url": "https://interestingengineering.com/culture/tesla-optimus-humanoid-jared-leto-tron-ares"
+      },
+      {
+        "publisher": "International Business Times",
+        "title": "Elon Musk Boasts Tesla Optimus' Fighting Skills at Disney's 'Tron: ARES' Premiere",
+        "url": "https://www.ibtimes.com/elon-musk-boasts-tesla-optimus-fighting-skills-disneys-tron-ares-premiere-3786001"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
     "id": "openai-sora-app",
     "date": "2025-09-30",
     "title": "Sora app",
@@ -191,6 +556,28 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2025-09-tilly-norwood-ai-actress",
+    "date": "2025-09-29",
+    "title": "Tilly Norwood, AI actress",
+    "who": "Xicoia and Particle6 (Eline Van der Velden)",
+    "tag": "ai",
+    "what": "Tilly Norwood, an AI-generated 'actress' from AI talent studio Xicoia, has drawn interest from several talent agents, her creator told the Zurich Summit, adding that an agency to represent her would be named within months.",
+    "quip": "Seeking representation. Does not require a trailer, lunch or a second take.",
+    "sources": [
+      {
+        "publisher": "Variety",
+        "title": "AI Actress Tilly Norwood Attracts Interest From Talent Agents, Zurich Summit Told",
+        "url": "https://au.variety.com/2025/film/news/ai-actress-tilly-norwood-talent-agents-zurich-summit-28293/"
+      },
+      {
+        "publisher": "PetaPixel",
+        "title": "Tilly Norwood is an AI Actress Seeking Hollywood Representation",
+        "url": "https://petapixel.com/2025/09/29/tilly-norwood-is-an-ai-actress-seeking-hollywood-representation"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
     "id": "meta-vibes",
     "date": "2025-09-25",
     "title": "Vibes",
@@ -213,11 +600,108 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2025-09-xania-monet-record-deal",
+    "date": "2025-09-20",
+    "title": "Xania Monet record deal",
+    "who": "Hallwood Media",
+    "tag": "ai",
+    "what": "Hallwood Media signed Xania Monet, an AI R&B artist whose songs Mississippi designer Telisha Jones makes by feeding her lyrics into Suno. One single reached No. 1 on Billboard's R&B Digital Song Sales chart.",
+    "quip": "Three million dollars for a voice that cannot catch a cold.",
+    "cost": "Deal reported at $3M",
+    "sources": [
+      {
+        "publisher": "The Decoder",
+        "title": "AI artist Xania Monet signs $3 million record deal with Hallwood Media",
+        "url": "https://the-decoder.com/ai-artist-xania-monet-signs-3-million-record-deal-with-hallwood-media/"
+      },
+      {
+        "publisher": "RouteNote",
+        "title": "AI artist Xania Monet lands $3 million record deal: A turning point for the music industry?",
+        "url": "https://routenote.com/blog/ai-artist-xania-monet-lands-3-million-record-deal-a-turning-point-for-the-music-industry/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-09-meta-ray-ban-display-demo",
+    "date": "2025-09-17",
+    "title": "Meta Ray-Ban Display live demo",
+    "who": "Meta (Mark Zuckerberg)",
+    "tag": "ai",
+    "what": "Meta unveiled smart glasses with a built-in display. On stage, the AI cooking assistant skipped steps and Zuckerberg could not answer a video call. He blamed the Wi-Fi; Meta's CTO later said it was not the Wi-Fi.",
+    "quip": "The future of computing, briefly blamed on the Wi-Fi.",
+    "cost": "$799",
+    "sources": [
+      {
+        "publisher": "Fortune",
+        "title": "Mark Zuckerberg blames bad Wi-Fi after the live demo of his new $800 smart glasses goes horribly wrong",
+        "url": "https://fortune.com/2025/09/18/mark-zuckerberg-live-demo-smart-glasses-meta-ray-ban-display-flop/"
+      },
+      {
+        "publisher": "TechCrunch",
+        "title": "Meta CTO explains why the smart glasses demos failed at Meta Connect — and it wasn't the Wi-Fi",
+        "url": "https://techcrunch.com/2025/09/19/meta-cto-explains-why-the-smart-glasses-demos-failed-at-meta-connect-and-it-wasnt-the-wi-fi/"
+      },
+      {
+        "publisher": "The Week",
+        "title": "Meta Connect 2025: Did Ray-Ban Display glasses 'fail'? Watch what happened during live demo",
+        "url": "https://www.theweek.in/news/sci-tech/2025/09/18/meta-connect-2025-did-ray-ban-display-glasses-fail-this-is-what-happened-during-live-demo.amp.html"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-08-wizard-of-oz-at-sphere",
+    "date": "2025-08-28",
+    "title": "The Wizard of Oz at Sphere",
+    "who": "Sphere Entertainment and Google",
+    "tag": "ai",
+    "what": "The Las Vegas Sphere began showing the 1939 film reworked with Google DeepMind AI to fill its 16K wraparound screen, with AI-generated versions of characters added beyond the original frame and the runtime cut to 75 minutes.",
+    "quip": "There's no place like home, except a 16K dome in Las Vegas.",
+    "cost": "$290M in ticket sales by February 2026, per Sphere; tickets from $144",
+    "sources": [
+      {
+        "publisher": "Reuters (via FBC News)",
+        "title": "Hollywood's biggest AI debut? Las Vegas Sphere's 'Wizard of Oz'",
+        "url": "https://www.fbcnews.com.fj/entertainment/hollywoods-biggest-ai-debut-las-vegas-spheres-wizard-of-oz/"
+      },
+      {
+        "publisher": "TheWrap",
+        "title": "'The Wizard of Oz at Sphere' Has Earned $290 Million in Ticket Sales",
+        "url": "https://www.thewrap.com/industry-news/business/wizard-of-oz-sphere-290-million/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-08-perplexity-chrome-offer",
+    "date": "2025-08-12",
+    "title": "Perplexity's offer for Chrome",
+    "who": "Perplexity",
+    "tag": "ai",
+    "what": "AI search startup Perplexity made an unsolicited all-cash offer for Google's Chrome browser, which was not for sale. The bid was nearly twice Perplexity's own valuation.",
+    "quip": "Offering twice your own worth for something not on sale. Bold, in the dictionary sense.",
+    "cost": "$34.5B offer; Perplexity was valued at about $18B",
+    "sources": [
+      {
+        "publisher": "9to5Google",
+        "title": "Perplexity wants to buy Google Chrome for $34.5 billion, twice the company's value",
+        "url": "https://9to5google.com/2025/08/12/perplexity-google-chrome-bid/"
+      },
+      {
+        "publisher": "Axios",
+        "title": "AI upstart Perplexity makes $34.5B offer for Google's Chrome",
+        "url": "https://axios.com/2025/08/12/ai-perplexity-google-chrome-deal"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
     "id": "tesla-diner-optimus-popcorn",
     "date": "2025-07-21",
     "title": "Optimus serving popcorn at the Tesla Diner",
     "who": "Tesla",
-    "tag": "same-money",
+    "tag": "ai",
     "what": "Tesla opened a 24-hour retro diner and drive-in cinema with EV chargers in Hollywood. On opening day, an Optimus humanoid robot scooped popcorn into bags for guests and waved.",
     "quip": "Humanoid robotics reaches its first commercial milestone: popcorn.",
     "sources": [
@@ -230,6 +714,197 @@
         "publisher": "ABC7 Los Angeles",
         "title": "Fans wait for hours to visit Tesla diner and drive-in movie theater in Hollywood on opening day",
         "url": "https://abc7.com/17235885"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-07-mia-zelu-wimbledon",
+    "date": "2025-07-16",
+    "title": "Mia Zelu at Wimbledon",
+    "who": "Mia Zelu (AI influencer account)",
+    "tag": "ai",
+    "what": "Instagram influencer Mia Zelu went viral with Wimbledon posts of Centre Court seats and Pimm's. She never attended: the account, with over 160,000 followers, is entirely AI-generated, disclosed behind 'Read More' in her bio.",
+    "quip": "Best seats at Wimbledon. No ticket, no body.",
+    "sources": [
+      {
+        "publisher": "Tennis.com",
+        "title": "Influencer Mia Zelu went viral at Wimbledon—with one catch: She's A.I.",
+        "url": "https://www.tennis.com/news/articles/ai-influencer-mia-zelu-went-viral-wimbledon-artificial-intelligence-social-media"
+      },
+      {
+        "publisher": "Khaleej Times",
+        "title": "Look: Influencer Mia Zelu goes viral at Wimbledon; social media users discover she's not real",
+        "url": "https://www.khaleejtimes.com/business/tech/mia-zelu-wimbledon-ai-influencer"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-07-thinking-machines-seed-round",
+    "date": "2025-07-15",
+    "title": "Thinking Machines Lab seed round",
+    "who": "Thinking Machines Lab (Mira Murati)",
+    "tag": "ai",
+    "what": "Former OpenAI CTO Mira Murati's startup closed a seed round led by Andreessen Horowitz, before revealing what it was working on. Murati said its work would be unveiled in the next couple of months.",
+    "quip": "Twelve billion dollars for a product to be announced. A seed, technically.",
+    "cost": "$2B seed round at a $12B valuation",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Mira Murati's Thinking Machines Lab is worth $12B in seed round",
+        "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-07-velvet-sundown",
+    "date": "2025-07-08",
+    "title": "The Velvet Sundown",
+    "who": "The Velvet Sundown",
+    "tag": "ai",
+    "what": "A rock band with over a million monthly Spotify listeners updated its profile to say its characters, music, voices and lyrics were created with AI tools, calling itself an 'ongoing artistic provocation'.",
+    "quip": "A million monthly listeners and nobody to carry the amps.",
+    "sources": [
+      {
+        "publisher": "AFP (via ScienceAlert)",
+        "title": "New Viral Indie Rock Sensation Reveals They're 100% AI",
+        "url": "https://www.sciencealert.com/new-viral-indie-rock-sensation-reveals-theyre-100-ai"
+      },
+      {
+        "publisher": "Louder",
+        "title": "There's a band with more than half a million monthly listeners on Spotify and they probably don't exist",
+        "url": "https://loudersound.com/bands-artists/the-velvet-sundown"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-07-samsung-ballie-delayed",
+    "date": "2025-07-02",
+    "title": "Ballie, delayed again",
+    "who": "Samsung",
+    "tag": "ai",
+    "what": "Samsung's rolling AI home robot, shown at CES 2020 and promised for summer 2025, was reported delayed again. In December 2025 it still was not on sale; Samsung said it was 'continuing to refine and perfect the technology'.",
+    "quip": "Rolling steadily toward a release date since 2020.",
+    "sources": [
+      {
+        "publisher": "9to5Google",
+        "title": "Samsung's Ballie is having an identity crisis, delayed again",
+        "url": "https://9to5google.com/2025/07/02/samsungs-ballie-identity-crisis-delayed-again/"
+      },
+      {
+        "publisher": "9to5Google",
+        "title": "Samsung's Ballie robot still isn't ready as release window comes and goes… again",
+        "url": "https://9to5google.com/2025/12/08/samsung-ballie-still-delayed-again/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-06-meta-scale-ai-deal",
+    "date": "2025-06-12",
+    "title": "Meta's Scale AI deal",
+    "who": "Meta (Mark Zuckerberg)",
+    "tag": "ai",
+    "what": "Meta invested in data-labelling firm Scale AI, whose CEO Alexandr Wang left with a small group of staff to join a new Meta team developing 'superintelligence'. Scale said it would stay independent.",
+    "quip": "When the hiring budget has a 'B' in it.",
+    "cost": "$14.3B for a 49% stake",
+    "sources": [
+      {
+        "publisher": "Associated Press (via News4JAX)",
+        "title": "Meta invests $14.3B in AI firm Scale and recruits its CEO for 'superintelligence' team",
+        "url": "https://www.news4jax.com/business/2025/06/13/meta-invests-in-ai-firm-scale-and-recruits-its-ceo-for-superintelligence-team/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-05-humanoid-robot-kickboxing",
+    "date": "2025-05-25",
+    "title": "Humanoid robot kickboxing",
+    "who": "Unitree and China Media Group",
+    "tag": "ai",
+    "what": "Four remote-controlled Unitree G1 humanoids fought in a tournament in Hangzhou billed as the first of its kind. One celebrated early, tripped over its opponent and fell face first, then went on to win the title.",
+    "quip": "Celebrated early, fell on its face, won anyway. Very human.",
+    "sources": [
+      {
+        "publisher": "Popular Science",
+        "title": "In world's first humanoid boxing match, gloating robot face plants",
+        "url": "https://www.popsci.com/technology/humanoid-robots-boxing-match/"
+      },
+      {
+        "publisher": "South China Morning Post",
+        "title": "Ready, set, fight: Unitree's humanoid robots test skills in unique kickboxing competition",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3311831/ready-set-fight-unitrees-humanoid-robots-test-skills-unique-kickboxing-competition"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-05-openai-buys-io",
+    "date": "2025-05-21",
+    "title": "OpenAI buys io",
+    "who": "OpenAI (Sam Altman, Jony Ive)",
+    "tag": "ai",
+    "what": "OpenAI agreed to buy io, Jony Ive's AI device startup of about 55 people, in an all-equity deal. No product had been shown; the first devices were slated for 2026.",
+    "quip": "A $6.5 billion design studio, product to follow.",
+    "cost": "$6.5B valuation; about $5B on top of OpenAI's existing 23% stake",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Jony Ive to lead OpenAI's design work following $6.5B acquisition of his company",
+        "url": "https://techcrunch.com/2025/05/21/jony-ive-to-lead-openais-design-work-following-6-5b-acquisition-of-his-company/"
+      },
+      {
+        "publisher": "NPR",
+        "title": "OpenAI buys io, former Apple designer Jony Ive's device startup",
+        "url": "https://www.npr.org/2025/05/22/nx-s1-5407548/openai-jony-ive-io-deal-ai-devices"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-04-meta-ai-app-friends",
+    "date": "2025-04-29",
+    "title": "Meta AI app and the 15-friend gap",
+    "who": "Meta (Mark Zuckerberg)",
+    "tag": "ai",
+    "what": "Meta launched a standalone Meta AI app. Days later Zuckerberg told a podcast the average American has fewer than three friends but wants about 15, and suggested AI personas could help fill the gap.",
+    "quip": "Twelve friends short, and the fix ships as an app.",
+    "sources": [
+      {
+        "publisher": "PetaPixel",
+        "title": "Meta Launches Stand-Alone AI App to Rival ChatGPT",
+        "url": "https://petapixel.com/2025/04/30/meta-launches-stand-alone-ai-app-to-rival-chatgpt/"
+      },
+      {
+        "publisher": "Entrepreneur",
+        "title": "Mark Zuckerberg Envisions a Future Where Your Friends Are AI Chatbots — But Not Everyone Is Convinced",
+        "url": "https://www.entrepreneur.com/business-news/meta-ceo-mark-zuckerberg-wants-you-to-make-ai-friends/491349"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-03-chatgpt-ghibli-images",
+    "date": "2025-03-27",
+    "title": "Ghibli-style images in ChatGPT",
+    "who": "OpenAI",
+    "tag": "ai",
+    "what": "ChatGPT's new image generator went viral for turning photos into Studio Ghibli-style art. Sam Altman said OpenAI's GPUs were 'melting' and added temporary rate limits; free users got three images a day.",
+    "quip": "Data centres running hot, one anime selfie at a time.",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "ChatGPT's viral image-generation AI is 'melting' OpenAI's GPUs",
+        "url": "https://www.cnbc.com/2025/03/27/chatgpts-viral-image-generation-ai-is-melting-openais-gpus.html"
+      },
+      {
+        "publisher": "Fortune",
+        "title": "Sam Altman says ChatGPT's Studio Ghibli-style images are 'melting' OpenAI's GPUs",
+        "url": "https://fortune.com/2025/03/28/sam-altman-chatgpt-gpus-melting-ai-images/"
       }
     ],
     "added": "2026-10-17"
@@ -253,6 +928,74 @@
         "publisher": "The Decoder",
         "title": "Humane ends its AI pin in ten days, sells technology to HP for $116 million",
         "url": "https://the-decoder.com/humane-ends-its-ai-pin-in-ten-days-sells-technology-to-hp-for-116-million/"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-02-openai-super-bowl-ad",
+    "date": "2025-02-09",
+    "title": "OpenAI's first Super Bowl ad",
+    "who": "OpenAI",
+    "tag": "ai",
+    "what": "OpenAI's first Super Bowl commercial, 'The Intelligence Age', ran a minute of black-and-white pointillist animation tracing human invention from fire and the wheel to ChatGPT during Super Bowl LIX.",
+    "quip": "Fire, the wheel, ChatGPT. The list stopped there.",
+    "cost": "$14M for the 60-second spot, per Business Insider",
+    "sources": [
+      {
+        "publisher": "Adweek",
+        "title": "Super Bowl Instant Replay: OpenAI Offers a Pithy, Pointillist Chronicle of Human Ingenuity",
+        "url": "https://www.adweek.com/brand-marketing/chatgpt-openai-super-bowl-ad/"
+      },
+      {
+        "publisher": "Business Insider (via Yahoo)",
+        "title": "OpenAI compares ChatGPT to humankind's greatest inventions in its first-ever Super Bowl ad",
+        "url": "https://tech.yahoo.com/ai/articles/openai-compares-chatgpt-humankinds-greatest-113940939.html"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-01-unitree-spring-festival-gala",
+    "date": "2025-01-28",
+    "title": "Yangko-dancing robots at the Spring Festival Gala",
+    "who": "Unitree Robotics",
+    "tag": "ai",
+    "what": "More than a dozen Unitree H1 humanoids in floral vests danced the yangko alongside human dancers on China's CCTV Spring Festival Gala, spinning red handkerchiefs, in a segment made with director Zhang Yimou.",
+    "quip": "Years of robotics research, delivered as a handkerchief spin.",
+    "sources": [
+      {
+        "publisher": "TechNode",
+        "title": "Unitree's humanoid robots steal the show at 2025 CCTV Spring Festival Gala with AI-powered Yangge dance",
+        "url": "https://technode.com/2025/01/29/unitree-robotics-humanoid-robots-steal-the-show-at-2025-cctv-spring-festival-gala-with-ai-powered-yangge-dance"
+      },
+      {
+        "publisher": "Gulf News",
+        "title": "Video: China's dancing robots steal the show at Spring Festival Gala",
+        "url": "https://gulfnews.com/world/offbeat/video-chinas-dancing-robots-steal-the-show-at-spring-festival-gala-1.500031818"
+      }
+    ],
+    "added": "2026-10-17"
+  },
+  {
+    "id": "2025-01-roborock-saros-z70",
+    "date": "2025-01-06",
+    "title": "Robot vacuum with an arm",
+    "who": "Roborock",
+    "tag": "ai",
+    "what": "At CES, Roborock showed the Saros Z70, a robot vacuum with a folding five-axis arm that picks up socks, tissues and sandals weighing up to 300 g. In an early demo it took about a minute to lift a pair of socks.",
+    "quip": "The sock problem, solved at roughly one sock every thirty seconds.",
+    "cost": "$1,999 in the US and £1,800 in the UK at launch, per Stuff",
+    "sources": [
+      {
+        "publisher": "GIGAZINE",
+        "title": "The robot vacuum cleaner 'Roborock Saros Z70' equipped with a robot arm is announced",
+        "url": "https://gigazine.net/gsc_news/en/20250106-roborock-saros-z70"
+      },
+      {
+        "publisher": "Stuff",
+        "title": "This vacuum cleaner has a robot arm to pick up your socks and is finally available",
+        "url": "https://www.stuff.tv/?p=953683"
       }
     ],
     "added": "2026-10-17"
