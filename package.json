@@ -7,7 +7,8 @@
     "build": "node scripts/build.mjs",
     "validate": "node scripts/validate.mjs",
     "find": "node scripts/find-misuse.mjs",
-    "og": "rsvg-convert -w 1200 -h 630 public/og.svg -o public/og.png"
+    "og": "rsvg-convert -w 1200 -h 630 public/og.svg -o public/og.png",
+    "social": "node scripts/social.mjs"
   },
   "engines": {
     "node": ">=22"

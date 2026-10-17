@@ -40,6 +40,23 @@ ANTHROPIC_API_KEY=... HINT="optional lead" node scripts/find-misuse.mjs   # edit
 
 `npm run og` re-renders `public/og.png` from `public/og.svg` (needs `rsvg-convert`).
 
+## Instagram
+
+`npm run social` renders ready-to-post slides from `data/*.json` into `social/<date>-<mode>/` (git-ignored), using a local Chrome, Chromium or Edge (`CHROME_PATH` to override):
+
+- `carousel/*.png`: 1080×1350 slides: question → **No.** → the money bar → one slide per entry → "It's not the tool. It's the aim." → link in bio
+- `story.png` and `reel-cover.png`: 1080×1920, with the key content kept clear of Instagram's own UI and the profile-grid crop
+- `caption.txt` and `first-comment.txt` (sources, slide by slide; pin it)
+
+```bash
+npm run social                        # launch post: the 5 newest entries
+npm run social -- --latest 8          # the 8 newest
+npm run social -- --week              # "This week in misplaced AI": entries added in the last 7 days
+npm run social -- --since 2026-10-01  # entries added since a date
+```
+
+Links aren't clickable in Instagram posts: keep the URL in the bio, and use the link sticker on Stories.
+
 ## Notes
 
 - GitHub pauses scheduled workflows in repos with no activity for 60 days. Merging a candidate counts as activity.

@@ -2,40 +2,18 @@
 // No dependencies: runs on plain Node in the GitHub Pages workflow.
 import { readFile, writeFile, mkdir, cp, rm } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { root, readJson, esc, fmtDate, money, people, byDateDesc } from "./format.mjs";
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = path.join(root, "dist");
-const readJson = async (file) => JSON.parse(await readFile(path.join(root, "data", file), "utf8"));
 
 const site = await readJson("site.json");
-const entries = (await readJson("entries.json")).sort((a, b) => b.date.localeCompare(a.date));
-const good = (await readJson("good.json")).sort((a, b) => b.date.localeCompare(a.date));
+const entries = (await readJson("entries.json")).sort(byDateDesc);
+const good = (await readJson("good.json")).sort(byDateDesc);
 const stats = await readJson("stats.json");
 const help = await readJson("help.json");
 
 const url = `https://${site.domain}/`;
 const buildDate = new Date().toISOString().slice(0, 10);
-
-// --- formatting -------------------------------------------------------------
-
-const esc = (value) =>
-  String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-
-const fmtDate = (iso, opts = { day: "numeric", month: "short", year: "numeric" }) =>
-  new Intl.DateTimeFormat("en-GB", { ...opts, timeZone: "UTC" }).format(new Date(`${iso}T00:00:00Z`));
-
-const oneDecimal = (n) => (n < 10 ? n.toFixed(1).replace(/\.0$/, "") : Math.round(n).toString());
-const twoDecimals = (n) => (n < 10 ? n.toFixed(2).replace(/\.?0+$/, "") : Math.round(n).toString());
-
-function money(v) {
-  if (v >= 1e12) return `$${twoDecimals(v / 1e12)} trillion`;
-  if (v >= 1e9) return `$${twoDecimals(v / 1e9)} billion`;
-  if (v >= 1e6) return `$${twoDecimals(v / 1e6)} million`;
-  return `$${v.toLocaleString("en-US")}`;
-}
-
-const people = (v) => (v >= 1e6 ? `${oneDecimal(v / 1e6)} million` : v.toLocaleString("en-US"));
 
 // --- footnotes for the headline numbers ------------------------------------
 
