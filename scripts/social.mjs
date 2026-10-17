@@ -1,5 +1,5 @@
 // Renders Instagram slides from data/*.json in the site's newspaper style:
-// a carousel (1080x1350), a Story and a Reel cover (1080x1920), plus a caption
+// a carousel (1080x1350), a Story, a Reel cover and a ~15 s Reel video (1080x1920), plus a caption
 // and a sources comment. Uses a local Chrome/Chromium for pixel-exact text layout.
 //
 //   npm run social                    # launch carousel with the 5 newest entries
@@ -100,9 +100,9 @@ body { display: flex; flex-direction: column; padding: var(--pad-y) 84px; font-f
 .motto { font: italic 400 60px/1.2 var(--display); }
 `;
 
-function page({ w, h, padY = 72, top = ["", ""], bottom = ["", ""], body, center = false }) {
+function page({ w, h, padY = 72, padding, top = ["", ""], bottom = ["", ""], body, center = false }) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><style>${CSS}
-:root { --w: ${w}px; --h: ${h}px; --pad-y: ${padY}px; }</style></head><body>
+:root { --w: ${w}px; --h: ${h}px; --pad-y: ${padY}px; }${padding ? `\nbody { padding: ${padding}; }` : ""}</style></head><body>
 ${top[0] || top[1] ? `<div class="top"><span>${top[0]}</span><span>${top[1]}</span></div>` : ""}
 <div class="main${center ? " center" : ""}">${body}</div>
 ${bottom[0] || bottom[1] ? `<div class="bottom"><span>${bottom[0]}</span><span>${bottom[1]}</span></div>` : ""}
@@ -203,6 +203,56 @@ const reelCover = page({
   center: true,
 });
 
+// Reel: ~15 s of hard cuts, deadpan. Frames keep clear of Instagram's Reel UI:
+// the top ~260px, the caption/audio area at the bottom (~480px) and the buttons on the right (~150px).
+const REEL_ENTRIES = 5;
+const reelFrame = (body, center = true) =>
+  page({ w: 1080, h: 1920, padding: "260px 150px 480px 84px", body, center });
+const reel = [
+  {
+    seconds: 1.8,
+    html: reelFrame(`<p class="kicker">${mode === "launch" ? "A simple question" : `This week in misplaced AI · ${esc(weekRange)}`}</p>
+      <h1 class="question" style="font-size:118px">Have we cured cancer yet?</h1>`),
+  },
+  { seconds: 0.5, html: reelFrame("") },
+  {
+    seconds: 1.8,
+    html: reelFrame(`<p class="no" style="font-size:420px">No<span class="dot"></span></p>
+      <p class="note">None has been cured by AI.</p>`),
+  },
+  ...entries.slice(0, REEL_ENTRIES).map((e) => ({
+    seconds: 1.5,
+    html: reelFrame(
+      `<div class="meta"><span>${fmtDate(e.date)}</span>${
+        e.tag === "same-money" ? `<span class="tag money">Same money, different toy</span>` : `<span class="tag">AI</span>`
+      }</div>
+      <h2 class="title" style="font-size:${e.title.length > 34 ? 88 : 104}px">${esc(e.title)}</h2>
+      ${e.cost && e.cost.length <= 70 ? `<p class="cost">${esc(e.cost)}</p>` : ""}
+      <p class="quip">${esc(e.quip)}</p>`,
+      false,
+    ),
+  })),
+  {
+    seconds: 2.2,
+    html: reelFrame(
+      `<p class="kicker">Big Tech on AI, ${stats.aiCapex.year}</p>
+      <p class="figure">${money(stats.aiCapex.value)}</p>
+      <div class="bar"></div>
+      <p class="kicker">Biggest cancer research budget</p>
+      <p class="figure red">${money(stats.cancerFunding.value)}</p>
+      <div class="bar red" style="width:${barPct.toFixed(2)}%"></div>
+      <p class="ratio">Drawn to scale.</p>`,
+      false,
+    ),
+  },
+  {
+    seconds: 1.8,
+    html: reelFrame(`<p class="kicker">Every claim is sourced</p>
+      <p class="domain" style="font-size:58px">${esc(site.domain)}</p>
+      <p class="motto">Not anti-AI. Pro-aim.</p>`),
+  },
+];
+
 // --- caption & sources comment ------------------------------------------------------------
 
 const hashtags = "#CancerResearch #AI #TechEthics #ArtificialIntelligence #ScienceFunding";
@@ -281,6 +331,35 @@ await shoot(story, path.join(outDir, "story.png"), 1080, 1920);
 await shoot(reelCover, path.join(outDir, "reel-cover.png"), 1080, 1920);
 await writeFile(path.join(outDir, "caption.txt"), `${caption}\n`);
 await writeFile(path.join(outDir, "first-comment.txt"), `${sourcesComment}\n`);
+
+// Reel video: render each frame, then let ffmpeg hold each one for its duration (H.264 + a silent
+// AAC track, which Instagram handles best; add a sound in Instagram).
+let reelNote = "no Reel video (install ffmpeg to get reel.mp4)";
+const ffmpeg = await run("ffmpeg", ["-version"]).then(() => "ffmpeg", () => null);
+if (ffmpeg) {
+  const frames = [];
+  for (const [i, f] of reel.entries()) {
+    const file = path.join(tmp, `reel-${String(i).padStart(2, "0")}.png`);
+    await shoot(f.html, file, 1080, 1920);
+    frames.push({ file, seconds: f.seconds });
+  }
+  const list = [...frames.flatMap((f) => [`file '${f.file}'`, `duration ${f.seconds}`]), `file '${frames.at(-1).file}'`].join("\n");
+  const listFile = path.join(tmp, "reel.txt");
+  await writeFile(listFile, `${list}\n`);
+  const total = frames.reduce((s, f) => s + f.seconds, 0);
+  await run(ffmpeg, [
+    "-y", "-loglevel", "error",
+    "-f", "concat", "-safe", "0", "-i", listFile,
+    "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
+    "-t", total.toFixed(2),
+    "-vf", "fps=30,format=yuv420p",
+    "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-profile:v", "high",
+    "-c:a", "aac", "-b:a", "128k",
+    "-movflags", "+faststart",
+    path.join(outDir, "reel.mp4"),
+  ]);
+  reelNote = `a ${total.toFixed(1)} s Reel`;
+}
 await rm(tmp, { recursive: true, force: true });
 
-console.log(`Rendered ${carousel.length} carousel slides, a Story and a Reel cover to ${path.relative(process.cwd(), outDir) || outDir}`);
+console.log(`Rendered ${carousel.length} carousel slides, a Story, a Reel cover and ${reelNote} to ${path.relative(process.cwd(), outDir) || outDir}`);
