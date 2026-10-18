@@ -50,6 +50,34 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-09-muse-charm-keychain-ai-companion",
+    "date": "2026-09-24",
+    "title": "Muse Charm keychain AI companion",
+    "who": "Meta (Mark Zuckerberg)",
+    "tag": "ai",
+    "what": "At Connect 2026 Meta unveiled Muse Charm, a keychain-sized device with a small display showing an avatar of its Muse AI agent. Zuckerberg said only a few units exist so far. It has no price and targets a December release.",
+    "quip": "A Tamagotchi that runs on a data centre, with a fingerprint sensor.",
+    "cost": "No price announced; Meta also unveiled $1,299 VR glasses at the same event",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
+        "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html"
+      },
+      {
+        "publisher": "Gizmodo",
+        "title": "Mark Zuckerberg's 'One More Thing' Was an AI Keychain?!",
+        "url": "https://gizmodo.com/meta-muse-charm-ai-keychain-2000816515"
+      },
+      {
+        "publisher": "heise online",
+        "title": "Tamagotchi meets AI agent: Meta announces AI gadget Muse Charm",
+        "url": "https://www.heise.de/en/news/Tamagotchi-meets-AI-agent-Meta-announces-AI-gadget-Muse-Charm-11464075.html"
+      }
+    ],
+    "added": "2026-10-18"
+  },
+  {
     "id": "2026-09-dyson-camerajet",
     "date": "2026-09-01",
     "title": "CameraJet toothbrush",
