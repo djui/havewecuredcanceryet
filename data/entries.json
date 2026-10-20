@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-10-tolan-raises-30m-for-its-ai-companion",
+    "date": "2026-10-19",
+    "title": "Tolan raises $30M for its AI companion",
+    "who": "Tolan",
+    "tag": "ai",
+    "what": "Companion app Tolan raised $30 million in a round led by Union Square Ventures, with Khosla Ventures and Homebrew. Users talk, mostly by voice, to a customised character. Total funding is reported at roughly $60 million.",
+    "quip": "A named, customisable friend in your phone, now with $60 million behind it.",
+    "cost": "$30 million round (about $60 million total raised); PitchBook estimates a valuation above $268 million",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+        "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
+      },
+      {
+        "publisher": "Global Dating Insights",
+        "title": "AI Companion Tolan Raises $30M as Revenue and User Engagement Grow",
+        "url": "https://www.globaldatinginsights.com/featured/tolan-ai-companion-raises-30m-funding/"
+      }
+    ],
+    "added": "2026-10-20"
+  },
+  {
     "id": "tesla-roadster-spacex-thrusters",
     "date": "2026-10-15",
     "title": "Tesla Roadster with SpaceX thrusters",
