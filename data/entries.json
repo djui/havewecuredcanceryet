@@ -349,6 +349,24 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-01-smart-nugget-ice-maker-pro-with-ai-noiseguard",
+    "date": "2026-01-08",
+    "title": "Smart Nugget Ice Maker Pro with AI NoiseGuard",
+    "who": "GoveeLife",
+    "tag": "ai",
+    "what": "A countertop nugget ice maker that uses AI to detect when it is about to freeze up and defrost early, so it runs more quietly. It was unveiled at CES 2026 and sells for $499.99.",
+    "quip": "Ice, now with machine learning. The noise problem is solved; the other problems remain.",
+    "cost": "$499.99 retail price",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "The most bizarre tech announced at CES 2026",
+        "url": "https://techcrunch.com/2026/01/08/the-most-bizarre-tech-announced-at-ces-2026/"
+      }
+    ],
+    "added": "2026-10-22"
+  },
+  {
     "id": "razer-project-ava",
     "date": "2026-01-06",
     "title": "Project AVA hologram companion",
