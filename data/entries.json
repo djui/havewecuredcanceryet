@@ -90,6 +90,29 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-08-san-francisco-s-ai-billboard-arms-race",
+    "date": "2026-08-03",
+    "title": "San Francisco's AI billboard arms race",
+    "who": "San Francisco AI and tech advertisers (U.S. 101 billboards)",
+    "tag": "ai",
+    "what": "AI, tech and finance firms lease most of the biggest billboards along U.S. 101 in San Francisco. The SF Standard reports top-tier sites cost an estimated $200,000 to $250,000 a month, and prices are up 20-30% on pre-pandemic levels.",
+    "quip": "One sign, $3 million a year, and the slogan still needs explaining.",
+    "cost": "Estimated $200,000-$250,000 per month, about $3M a year, for a top-tier billboard (ad firm Apollo Partners)",
+    "sources": [
+      {
+        "publisher": "The San Francisco Standard",
+        "title": "One billboard, $3M a year: Welcome to AI's advertising arms race",
+        "url": "https://sfstandard.com/2026/08/03/billboard-advertising-ai-arms-race/"
+      },
+      {
+        "publisher": "The San Francisco Standard",
+        "title": "San Francisco AI billboards: Why cryptic tech ads are alienating the city",
+        "url": "https://sfstandard.com/pacific-standard-time/2026/08/07/sf-ai-billboards-dystopian-not-funny/"
+      }
+    ],
+    "added": "2026-10-24"
+  },
+  {
     "id": "friend-2-ai-pendant",
     "date": "2026-07-30",
     "title": "Friend 2.0 pendant",
