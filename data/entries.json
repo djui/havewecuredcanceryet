@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-10-nirva-ambient-ai-pendant",
+    "date": "2026-10-22",
+    "title": "Nirva ambient AI pendant",
+    "who": "Nirva",
+    "tag": "ai",
+    "what": "Nirva, founded by former Meta Reality Labs staff, raised a $25M pre-Series A, bringing its total to $33M, for an 8-gram $249 pendant that listens only to its wearer. It is due to ship by the end of 2026.",
+    "quip": "A necklace that remembers your day, so you don't have to. Your day, meanwhile, includes wearing the necklace.",
+    "cost": "$25M pre-Series A round, $33M total raised; device priced at $249",
+    "sources": [
+      {
+        "publisher": "TechCrunch (via X post)",
+        "title": "Nirva raises $33M for a pendant that only listens to you",
+        "url": "https://x.com/TechCrunch/status/2113261361111187471"
+      },
+      {
+        "publisher": "KuCoin News (citing TechCrunch)",
+        "title": "AI wearable startup Nirva completes $25M pre-A round, total funding $33M",
+        "url": "https://www.kucoin.com/news/flash/ai-wearable-startup-nirva-completes-25m-pre-a-round-total-funding-reaches-33m"
+      }
+    ],
+    "added": "2026-10-26"
+  },
+  {
     "id": "tesla-roadster-spacex-thrusters",
     "date": "2026-10-15",
     "title": "Tesla Roadster with SpaceX thrusters",
