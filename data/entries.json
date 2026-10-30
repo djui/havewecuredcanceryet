@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-10-waddle-world-a-tamagotchi-with-ai",
+    "date": "2026-10-28",
+    "title": "Waddle World, a Tamagotchi with AI",
+    "who": "Meta",
+    "tag": "ai",
+    "what": "Meta quietly launched Waddle World in the Philippines: a virtual pet app for adults where AI turns your chat into diary entries written by the pet. It has three mini-games earning pet food and toys.",
+    "quip": "A Tamagotchi, now with a large language model to write the pet's diary.",
+    "sources": [
+      {
+        "publisher": "AI Weekly",
+        "title": "Meta Soft-Launches Waddle World AI Pet Journal App in Philippines",
+        "url": "https://aiweekly.co/alerts/meta-soft-launches-waddle-world-ai-pet-journal-app-in-philippines"
+      },
+      {
+        "publisher": "TechJuice",
+        "title": "Meta Launches Waddle World, a New AI Pet App for Adults",
+        "url": "https://www.techjuice.pk/meta-waddle-world-ai-pet-app-tamagotchi-philippines-launch/"
+      }
+    ],
+    "added": "2026-10-30"
+  },
+  {
     "id": "tesla-roadster-spacex-thrusters",
     "date": "2026-10-15",
     "title": "Tesla Roadster with SpaceX thrusters",
@@ -184,6 +206,24 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-05-familiar-a-plush-ai-robot-pet",
+    "date": "2026-05-07",
+    "title": "Familiar, a plush AI robot pet",
+    "who": "Familiar Machines & Magic (Colin Angle)",
+    "tag": "ai",
+    "what": "Roomba co-founder Colin Angle unveiled Familiar, a plush four-legged AI pet that nuzzles and wags its tail. A 2024 SEC filing showed $15M raised from eight investors toward a $30M target.",
+    "quip": "From a robot that vacuums to a robot that wags. Progress, of a kind.",
+    "cost": "$15M raised, $30M sought (per 2024 SEC filing report)",
+    "sources": [
+      {
+        "publisher": "TweakTown",
+        "title": "AI-powered robot pet dogs are the next Roomba's",
+        "url": "https://www.tweaktown.com/news/111504/ai-powered-robot-pet-dogs-are-the-next-roombas/index.html"
+      }
+    ],
+    "added": "2026-10-30"
   },
   {
     "id": "2026-05-agibot-a2-met-gala",
@@ -504,6 +544,24 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2025-10-moflin-ai-pet-robot-goes-international",
+    "date": "2025-10-26",
+    "title": "Moflin AI pet robot goes international",
+    "who": "Casio",
+    "tag": "ai",
+    "what": "Casio launched its Moflin, a furry, guinea-pig-sized robot that uses machine learning to develop a personality, outside Japan at $430. Testers reported real dogs treated it with suspicion.",
+    "quip": "$430 for a furry blob that feels nothing, per its own reviewer. The dogs were not fooled.",
+    "cost": "$430 per unit",
+    "sources": [
+      {
+        "publisher": "The Tech Buzz",
+        "title": "Casio's $430 AI Pet Robot Squeaks Into Hearts (And Annoys Dogs)",
+        "url": "https://www.techbuzz.ai/articles/casio-s-430-ai-pet-robot-squeaks-into-hearts-and-annoys-dogs"
+      }
+    ],
+    "added": "2026-10-30"
   },
   {
     "id": "2025-10-optimus-tron-ares-premiere",
