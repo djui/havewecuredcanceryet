@@ -40,29 +40,6 @@
     "added": "2026-10-30"
   },
   {
-    "id": "2026-10-tolan-raises-30m-for-its-ai-companion",
-    "date": "2026-10-19",
-    "title": "Tolan raises $30M for its AI companion",
-    "who": "Tolan",
-    "tag": "ai",
-    "what": "Companion app Tolan raised $30 million in a round led by Union Square Ventures, with Khosla Ventures and Homebrew. Users talk, mostly by voice, to a customised character. Total funding is reported at roughly $60 million.",
-    "quip": "A named, customisable friend in your phone, now with $60 million behind it.",
-    "cost": "$30 million round (about $60 million total raised); PitchBook estimates a valuation above $268 million",
-    "sources": [
-      {
-        "publisher": "TechCrunch",
-        "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-        "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
-      },
-      {
-        "publisher": "Global Dating Insights",
-        "title": "AI Companion Tolan Raises $30M as Revenue and User Engagement Grow",
-        "url": "https://www.globaldatinginsights.com/featured/tolan-ai-companion-raises-30m-funding/"
-      }
-    ],
-    "added": "2026-10-20"
-  },
-  {
     "id": "2026-10-nirva-ambient-ai-pendant",
     "date": "2026-10-22",
     "title": "Nirva ambient AI pendant",
@@ -84,6 +61,29 @@
       }
     ],
     "added": "2026-10-26"
+  },
+  {
+    "id": "2026-10-tolan-raises-30m-for-its-ai-companion",
+    "date": "2026-10-19",
+    "title": "Tolan raises $30M for its AI companion",
+    "who": "Tolan",
+    "tag": "ai",
+    "what": "Companion app Tolan raised $30 million in a round led by Union Square Ventures, with Khosla Ventures and Homebrew. Users talk, mostly by voice, to a customised character. Total funding is reported at roughly $60 million.",
+    "quip": "A named, customisable friend in your phone, now with $60 million behind it.",
+    "cost": "$30 million round (about $60 million total raised); PitchBook estimates a valuation above $268 million",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+        "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
+      },
+      {
+        "publisher": "Global Dating Insights",
+        "title": "AI Companion Tolan Raises $30M as Revenue and User Engagement Grow",
+        "url": "https://www.globaldatinginsights.com/featured/tolan-ai-companion-raises-30m-funding/"
+      }
+    ],
+    "added": "2026-10-20"
   },
   {
     "id": "tesla-roadster-spacex-thrusters",
@@ -970,6 +970,24 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2025-07-meta-s-200m-offer-for-one-apple-engineer",
+    "date": "2025-07-09",
+    "title": "Meta's $200M+ offer for one Apple engineer",
+    "who": "Meta (Mark Zuckerberg); Ruoming Pang",
+    "tag": "ai",
+    "what": "Meta reportedly hired Apple's head of foundation models, Ruoming Pang, for its new superintelligence team on a pay package reported to exceed $200 million.",
+    "quip": "One engineer, nine figures. Cancer research grants usually round differently.",
+    "cost": "Pay package reported at more than $200 million for a single hire",
+    "sources": [
+      {
+        "publisher": "Business Standard",
+        "title": "Meta hires Apple's top AI exec with pay deal exceeding $200 million",
+        "url": "https://www.business-standard.com/technology/tech-news/meta-hires-apple-ai-expert-ruoming-pang-200m-package-125071000165_1.html"
+      }
+    ],
+    "added": "2026-11-01"
   },
   {
     "id": "2025-07-velvet-sundown",
