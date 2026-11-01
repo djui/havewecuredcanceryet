@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-10-wabi-valued-at-1-25b-as-a-mini-app-personal-agent",
+    "date": "2026-10-29",
+    "title": "Wabi valued at $1.25B as a mini-app 'personal agent'",
+    "who": "Wabi (Eugenia Kuyda)",
+    "tag": "ai",
+    "what": "Wabi, which pivoted last month from a prompt-based app builder to an AI messenger, raised $55M at a $1.25B valuation. Suggested uses include meal planning, date-night planning and trivia games.",
+    "quip": "A billion-dollar valuation, mostly to help you plan dinner and a date night.",
+    "cost": "$55M raised at a $1.25B valuation",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+        "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+      }
+    ],
+    "added": "2026-11-01"
+  },
+  {
     "id": "tesla-roadster-spacex-thrusters",
     "date": "2026-10-15",
     "title": "Tesla Roadster with SpaceX thrusters",
