@@ -22,6 +22,52 @@
     "added": "2026-10-30"
   },
   {
+    "id": "2026-10-tolan-raises-30m-for-its-ai-companion",
+    "date": "2026-10-19",
+    "title": "Tolan raises $30M for its AI companion",
+    "who": "Tolan",
+    "tag": "ai",
+    "what": "Companion app Tolan raised $30 million in a round led by Union Square Ventures, with Khosla Ventures and Homebrew. Users talk, mostly by voice, to a customised character. Total funding is reported at roughly $60 million.",
+    "quip": "A named, customisable friend in your phone, now with $60 million behind it.",
+    "cost": "$30 million round (about $60 million total raised); PitchBook estimates a valuation above $268 million",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+        "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
+      },
+      {
+        "publisher": "Global Dating Insights",
+        "title": "AI Companion Tolan Raises $30M as Revenue and User Engagement Grow",
+        "url": "https://www.globaldatinginsights.com/featured/tolan-ai-companion-raises-30m-funding/"
+      }
+    ],
+    "added": "2026-10-20"
+  },
+  {
+    "id": "2026-10-nirva-ambient-ai-pendant",
+    "date": "2026-10-22",
+    "title": "Nirva ambient AI pendant",
+    "who": "Nirva",
+    "tag": "ai",
+    "what": "Nirva, founded by former Meta Reality Labs staff, raised a $25M pre-Series A, bringing its total to $33M, for an 8-gram $249 pendant that listens only to its wearer. It is due to ship by the end of 2026.",
+    "quip": "A necklace that remembers your day, so you don't have to. Your day, meanwhile, includes wearing the necklace.",
+    "cost": "$25M pre-Series A round, $33M total raised; device priced at $249",
+    "sources": [
+      {
+        "publisher": "TechCrunch (via X post)",
+        "title": "Nirva raises $33M for a pendant that only listens to you",
+        "url": "https://x.com/TechCrunch/status/2113261361111187471"
+      },
+      {
+        "publisher": "KuCoin News (citing TechCrunch)",
+        "title": "AI wearable startup Nirva completes $25M pre-A round, total funding $33M",
+        "url": "https://www.kucoin.com/news/flash/ai-wearable-startup-nirva-completes-25m-pre-a-round-total-funding-reaches-33m"
+      }
+    ],
+    "added": "2026-10-26"
+  },
+  {
     "id": "tesla-roadster-spacex-thrusters",
     "date": "2026-10-15",
     "title": "Tesla Roadster with SpaceX thrusters",
@@ -72,6 +118,34 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-09-muse-charm-keychain-ai-companion",
+    "date": "2026-09-24",
+    "title": "Muse Charm keychain AI companion",
+    "who": "Meta (Mark Zuckerberg)",
+    "tag": "ai",
+    "what": "At Connect 2026 Meta unveiled Muse Charm, a keychain-sized device with a small display showing an avatar of its Muse AI agent. Zuckerberg said only a few units exist so far. It has no price and targets a December release.",
+    "quip": "A Tamagotchi that runs on a data centre, with a fingerprint sensor.",
+    "cost": "No price announced; Meta also unveiled $1,299 VR glasses at the same event",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
+        "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html"
+      },
+      {
+        "publisher": "Gizmodo",
+        "title": "Mark Zuckerberg's 'One More Thing' Was an AI Keychain?!",
+        "url": "https://gizmodo.com/meta-muse-charm-ai-keychain-2000816515"
+      },
+      {
+        "publisher": "heise online",
+        "title": "Tamagotchi meets AI agent: Meta announces AI gadget Muse Charm",
+        "url": "https://www.heise.de/en/news/Tamagotchi-meets-AI-agent-Meta-announces-AI-gadget-Muse-Charm-11464075.html"
+      }
+    ],
+    "added": "2026-10-18"
+  },
+  {
     "id": "2026-09-dyson-camerajet",
     "date": "2026-09-01",
     "title": "CameraJet toothbrush",
@@ -110,6 +184,29 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-08-san-francisco-s-ai-billboard-arms-race",
+    "date": "2026-08-03",
+    "title": "San Francisco's AI billboard arms race",
+    "who": "San Francisco AI and tech advertisers (U.S. 101 billboards)",
+    "tag": "ai",
+    "what": "AI, tech and finance firms lease most of the biggest billboards along U.S. 101 in San Francisco. The SF Standard reports top-tier sites cost an estimated $200,000 to $250,000 a month, and prices are up 20-30% on pre-pandemic levels.",
+    "quip": "One sign, $3 million a year, and the slogan still needs explaining.",
+    "cost": "Estimated $200,000-$250,000 per month, about $3M a year, for a top-tier billboard (ad firm Apollo Partners)",
+    "sources": [
+      {
+        "publisher": "The San Francisco Standard",
+        "title": "One billboard, $3M a year: Welcome to AI's advertising arms race",
+        "url": "https://sfstandard.com/2026/08/03/billboard-advertising-ai-arms-race/"
+      },
+      {
+        "publisher": "The San Francisco Standard",
+        "title": "San Francisco AI billboards: Why cryptic tech ads are alienating the city",
+        "url": "https://sfstandard.com/pacific-standard-time/2026/08/07/sf-ai-billboards-dystopian-not-funny/"
+      }
+    ],
+    "added": "2026-10-24"
   },
   {
     "id": "friend-2-ai-pendant",
@@ -387,6 +484,24 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-01-smart-nugget-ice-maker-pro-with-ai-noiseguard",
+    "date": "2026-01-08",
+    "title": "Smart Nugget Ice Maker Pro with AI NoiseGuard",
+    "who": "GoveeLife",
+    "tag": "ai",
+    "what": "A countertop nugget ice maker that uses AI to detect when it is about to freeze up and defrost early, so it runs more quietly. It was unveiled at CES 2026 and sells for $499.99.",
+    "quip": "Ice, now with machine learning. The noise problem is solved; the other problems remain.",
+    "cost": "$499.99 retail price",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "The most bizarre tech announced at CES 2026",
+        "url": "https://techcrunch.com/2026/01/08/the-most-bizarre-tech-announced-at-ces-2026/"
+      }
+    ],
+    "added": "2026-10-22"
   },
   {
     "id": "razer-project-ava",
