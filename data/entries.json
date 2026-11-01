@@ -40,29 +40,6 @@
     "added": "2026-10-30"
   },
   {
-    "id": "2026-10-tolan-raises-30m-for-its-ai-companion",
-    "date": "2026-10-19",
-    "title": "Tolan raises $30M for its AI companion",
-    "who": "Tolan",
-    "tag": "ai",
-    "what": "Companion app Tolan raised $30 million in a round led by Union Square Ventures, with Khosla Ventures and Homebrew. Users talk, mostly by voice, to a customised character. Total funding is reported at roughly $60 million.",
-    "quip": "A named, customisable friend in your phone, now with $60 million behind it.",
-    "cost": "$30 million round (about $60 million total raised); PitchBook estimates a valuation above $268 million",
-    "sources": [
-      {
-        "publisher": "TechCrunch",
-        "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-        "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
-      },
-      {
-        "publisher": "Global Dating Insights",
-        "title": "AI Companion Tolan Raises $30M as Revenue and User Engagement Grow",
-        "url": "https://www.globaldatinginsights.com/featured/tolan-ai-companion-raises-30m-funding/"
-      }
-    ],
-    "added": "2026-10-20"
-  },
-  {
     "id": "2026-10-nirva-ambient-ai-pendant",
     "date": "2026-10-22",
     "title": "Nirva ambient AI pendant",
@@ -84,6 +61,52 @@
       }
     ],
     "added": "2026-10-26"
+  },
+  {
+    "id": "2026-10-1-billion-for-a-lab-with-no-product",
+    "date": "2026-10-21",
+    "title": "$1 billion for a lab with no product",
+    "who": "Flapping Airplanes",
+    "tag": "ai",
+    "what": "A year-old AI research lab raised a $1 billion Series A at a $6 billion valuation. It has no commercial product. Its seed round nine months earlier valued it at $1.5 billion.",
+    "quip": "Valuation quadrupled in nine months. Product count unchanged at zero.",
+    "cost": "$1 billion Series A at a $6 billion valuation (after a $180 million seed at $1.5 billion)",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+        "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"
+      },
+      {
+        "publisher": "Bloomberg",
+        "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round"
+      }
+    ],
+    "added": "2026-11-01"
+  },
+  {
+    "id": "2026-10-tolan-raises-30m-for-its-ai-companion",
+    "date": "2026-10-19",
+    "title": "Tolan raises $30M for its AI companion",
+    "who": "Tolan",
+    "tag": "ai",
+    "what": "Companion app Tolan raised $30 million in a round led by Union Square Ventures, with Khosla Ventures and Homebrew. Users talk, mostly by voice, to a customised character. Total funding is reported at roughly $60 million.",
+    "quip": "A named, customisable friend in your phone, now with $60 million behind it.",
+    "cost": "$30 million round (about $60 million total raised); PitchBook estimates a valuation above $268 million",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+        "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
+      },
+      {
+        "publisher": "Global Dating Insights",
+        "title": "AI Companion Tolan Raises $30M as Revenue and User Engagement Grow",
+        "url": "https://www.globaldatinginsights.com/featured/tolan-ai-companion-raises-30m-funding/"
+      }
+    ],
+    "added": "2026-10-20"
   },
   {
     "id": "tesla-roadster-spacex-thrusters",
@@ -457,6 +480,29 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-02-super-bowl-ads-about-whether-chatbots-will-show-ads",
+    "date": "2026-02-04",
+    "title": "Super Bowl ads about whether chatbots will show ads",
+    "who": "Anthropic (vs. OpenAI)",
+    "tag": "ai",
+    "what": "Anthropic bought Super Bowl spots mocking the idea of ads inside AI chatbots, after OpenAI said it would test ads in ChatGPT. Sam Altman publicly called the ad deceptive.",
+    "quip": "Two unprofitable labs, one Super Bowl, one argument about ads.",
+    "cost": "Undisclosed; 30-second Super Bowl slots sold for up to $10 million the previous year",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "Anthropic takes aim at OpenAI's ad push in Super Bowl commercial",
+        "url": "https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html"
+      },
+      {
+        "publisher": "SiliconANGLE",
+        "title": "Anthropic's hilarious Super Bowl spot skewers potential AI ads",
+        "url": "https://siliconangle.com/2026/02/04/anthropics-hilarious-super-bowl-ad-jibe-chatgpts-ads-hits-nerve/"
+      }
+    ],
+    "added": "2026-11-01"
   },
   {
     "id": "moltbook",
