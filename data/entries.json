@@ -187,6 +187,23 @@
     "added": "2026-10-18"
   },
   {
+    "id": "2026-09-hungr-ai-a-digital-snickers-bar-for-chatbots",
+    "date": "2026-09-02",
+    "title": "Hungr.AI, a digital Snickers bar for chatbots",
+    "who": "Mars (Snickers)",
+    "tag": "ai",
+    "what": "Mars launched Hungr.AI, an AI-generated digital Snickers bar. Users can offer virtual bars to \"feed\" a misbehaving AI assistant, extending the brand's hunger campaign to chatbots.",
+    "quip": "A chocolate bar you cannot eat, for an assistant that cannot be hungry.",
+    "sources": [
+      {
+        "publisher": "ConfectioneryNews",
+        "title": "Mars takes Snickers into AI with world's first digital chocolate bar",
+        "url": "https://www.confectionerynews.com/Article/2026/09/02/mars-takes-snickers-into-ai-with-worlds-first-digital-chocolate-bar/"
+      }
+    ],
+    "added": "2026-11-02"
+  },
+  {
     "id": "2026-09-dyson-camerajet",
     "date": "2026-09-01",
     "title": "CameraJet toothbrush",
