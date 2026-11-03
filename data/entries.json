@@ -109,6 +109,24 @@
     "added": "2026-10-20"
   },
   {
+    "id": "2026-10-bee-frontier-and-bee-eclipse-personal-ai-devices",
+    "date": "2026-10-15",
+    "title": "Bee Frontier and Bee Eclipse personal AI devices",
+    "who": "Amazon (Bee)",
+    "tag": "ai",
+    "what": "Amazon launched two microphone-equipped AI gadgets from Bee: a $74.99 wristband and a $99.99 card that sticks to a phone. They transcribe conversations and suggest to-dos; advanced features need $11.99/month.",
+    "quip": "A wristband that listens to your life so it can remind you to buy milk.",
+    "cost": "$74.99 (Frontier), $99.99 (Eclipse), $11.99/month Bee Pro",
+    "sources": [
+      {
+        "publisher": "CBS News",
+        "title": "Amazon launches new \"personal AI\" devices that can listen to your conversations and take notes",
+        "url": "https://www.cbsnews.com/news/amazon-personal-ai-wearable-devices-bee/"
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
     "id": "tesla-roadster-spacex-thrusters",
     "date": "2026-10-15",
     "title": "Tesla Roadster with SpaceX thrusters",
