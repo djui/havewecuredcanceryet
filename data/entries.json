@@ -63,6 +63,28 @@
     "added": "2026-10-26"
   },
   {
+    "id": "2026-10-ai-food-photos-that-put-bacon-in-soda",
+    "date": "2026-10-21",
+    "title": "AI food photos that put bacon in soda",
+    "who": "Just Eat",
+    "tag": "ai",
+    "what": "Just Eat paused its AI-generated menu photo trial and apologised after inaccurate images went viral, including bacon floating in a soda. It began removing the images.",
+    "quip": "The menu photos were generated. The bacon in the soda was, apparently, a bonus.",
+    "sources": [
+      {
+        "publisher": "PetaPixel",
+        "title": "Food Delivery App Apologizes for AI-Generated Menu Photos Showing Bacon Floating in Soda",
+        "url": "https://petapixel.com/2026/10/21/just-eat-food-delivery-app-apologizes-for-ai-generated-menu-photo-showing-bacon-floating-in-soda/"
+      },
+      {
+        "publisher": "Grocery Gazette",
+        "title": "Just Eat halts AI food imagery trial after bizarre menu pictures spark backlash",
+        "url": "https://www.grocerygazette.co.uk/2026/10/21/just-eat-halts-ai-food-imagery-trial-after-bizarre-menu-pictures-spark-backlash/"
+      }
+    ],
+    "added": "2026-11-04"
+  },
+  {
     "id": "2026-10-1-billion-for-a-lab-with-no-product",
     "date": "2026-10-21",
     "title": "$1 billion for a lab with no product",
@@ -135,6 +157,23 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-10-uta-clients-to-become-ai-avatars",
+    "date": "2026-10-12",
+    "title": "UTA clients to become AI avatars",
+    "who": "Genies (Akash Nigam) and UTA",
+    "tag": "ai",
+    "what": "Genies signed a deal with talent agency UTA to turn its clients, including Will Ferrell, Kylie Minogue and Bad Bunny, into AI avatars. The clients moderate how their digital doubles behave online.",
+    "quip": "Hollywood's biggest names, now available in a version that never has to show up.",
+    "sources": [
+      {
+        "publisher": "Bloomberg",
+        "title": "Genies Signs Deal to Turn UTA's Hollywood Actors Into AI Avatars",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-12/genies-signs-dea"
+      }
+    ],
+    "added": "2026-11-04"
   },
   {
     "id": "2026-10-gods-dont-give-gifts",
