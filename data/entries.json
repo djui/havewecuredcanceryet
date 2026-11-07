@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-11-a-smart-ring-with-a-screen-and-joystick-for-talking-",
+    "date": "2026-11-05",
+    "title": "A smart ring with a screen and joystick for talking to AI agents",
+    "who": "Aina",
+    "tag": "ai",
+    "what": "Aina released a $399 smart ring with an OLED screen, joystick, microphone and speaker. It is meant for sending prompts to AI agents, dictating notes and taking calls. The startup raised $5.5M in July.",
+    "quip": "Your phone already does this, but now it fits on a finger and has a joystick.",
+    "cost": "$399 per ring; startup raised $5.5M in July",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Aina's smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+        "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/"
+      },
+      {
+        "publisher": "The Gadgeteer",
+        "title": "The Chunky Aina AI Ring Has Its Own Screen, Joystick, and Microphone",
+        "url": "https://the-gadgeteer.com/2026/11/06/aina-ai-ring-screen-joystick/"
+      }
+    ],
+    "added": "2026-11-07"
+  },
+  {
     "id": "2026-10-wabi-valued-at-1-25b-as-a-mini-app-personal-agent",
     "date": "2026-10-29",
     "title": "Wabi valued at $1.25B as a mini-app 'personal agent'",
@@ -38,6 +61,34 @@
       }
     ],
     "added": "2026-10-30"
+  },
+  {
+    "id": "2026-10-echo-an-armless-desk-humanoid-companion",
+    "date": "2026-10-26",
+    "title": "Echo, an armless desk humanoid companion",
+    "who": "Realbotix",
+    "tag": "ai",
+    "what": "Realbotix launched Echo, armless tabletop humanoid torsos running ChatGPT, Claude and Gemini, from $11,950 with a monthly conversation subscription. A $199 deposit reserves a unit for 2027 delivery.",
+    "quip": "A torso that talks to you from your desk, for the price of a used car, plus a subscription.",
+    "cost": "From $11,950 plus a monthly subscription; $199 deposit",
+    "sources": [
+      {
+        "publisher": "Business Wire",
+        "title": "Realbotix Launches Echo Humanoid Robot Line",
+        "url": "https://www.businesswire.com/news/home/20261026986313/en/Realbotix-Launches-Echo-Humanoid-Robot-Line"
+      },
+      {
+        "publisher": "New Atlas",
+        "title": "Americans can now order a US-made tabletop humanoid for under $12,000",
+        "url": "https://newatlas.com/ai-humanoids/americans-realistic-humanoids-realbotix/"
+      },
+      {
+        "publisher": "Android Headlines",
+        "title": "Realbotix Unveils $12,000 Desk Humanoids to Fight Loneliness",
+        "url": "https://www.androidheadlines.com/2026/11/realbotix-tabletop-humanoid-echo-series.html"
+      }
+    ],
+    "added": "2026-11-07"
   },
   {
     "id": "2026-10-nirva-ambient-ai-pendant",
