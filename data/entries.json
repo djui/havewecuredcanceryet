@@ -137,6 +137,23 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-10-houdini-back-from-the-dead-an-ai-resurrected-illusio",
+    "date": "2026-10-08",
+    "title": "Houdini: Back from the Dead, an AI-resurrected illusionist",
+    "who": "Fox Nation (Red Rock Films)",
+    "tag": "ai",
+    "what": "Fox Nation set a three-part series, debuting Oct. 14, in which an AI-generated Houdini answers questions about his life. It was made from 400+ licensed photographs and archival footage, with a mix of human and AI voices.",
+    "quip": "Houdini escaped every trap but a render queue.",
+    "sources": [
+      {
+        "publisher": "Variety",
+        "title": "Fox Nation to Debut AI-Generated 'Houdini' Series",
+        "url": "https://variety.com/2026/tv/news/fox-nation-ai-generated-harry-houdini-series-fox-news-1236905616/"
+      }
+    ],
+    "added": "2026-11-08"
+  },
+  {
     "id": "2026-10-gods-dont-give-gifts",
     "date": "2026-10-08",
     "title": "Gods Don't Give Gifts",
@@ -225,6 +242,56 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-08-castle-walls-a-streaming-series-made-end-to-end-with",
+    "date": "2026-08-12",
+    "title": "Castle Walls, a streaming series made end-to-end with AI",
+    "who": "Ay Yapim and Amazon Prime Video",
+    "tag": "ai",
+    "what": "Turkish producer Ay Yapim's two-episode AI-generated drama Castle Walls launched globally on Prime Video, billed as a first for a major streamer. Amazon also acquired an AI-generated spinoff film of the crime series Cukur.",
+    "quip": "A year of development to produce two episodes of a show nobody requested.",
+    "sources": [
+      {
+        "publisher": "Variety",
+        "title": "AI-Generated Turkish Series 'Castle Walls' Launches on Prime Video",
+        "url": "https://variety.com/2026/tv/global/ai-generated-turkish-tv-series-castle-walls-prime-video-first-1236832779/"
+      },
+      {
+        "publisher": "The Ankler",
+        "title": "Amazon Has TV's First Fully AI-Made Series. There's No Going Back",
+        "url": "https://theankler.com/amazon-has-tvs-first-fully-ai-made-series-theres-no-going-back/"
+      }
+    ],
+    "added": "2026-11-08"
+  },
+  {
+    "id": "2026-08-fairground-ai-a-24-7-roku-channel-of-nothing-but-ai-",
+    "date": "2026-08-08",
+    "title": "Fairground AI, a 24/7 Roku channel of nothing but AI video",
+    "who": "Fairground Entertainment (Colin Petrie-Norris) on The Roku Channel",
+    "tag": "ai",
+    "what": "Roku added Fairground AI Creator TV, a free ad-supported channel running AI-generated series, films and shorts around the clock, with AI-generated ads between them. Fairground raised a $4M seed round led by Viant Technology.",
+    "quip": "Television, but the writers' room is a prompt box and the ad breaks are synthetic too.",
+    "cost": "$4M seed round led by Viant Technology",
+    "sources": [
+      {
+        "publisher": "Futurism",
+        "title": "Roku Unleashes 24/7 AI Slop Channel",
+        "url": "https://futurism.com/artificial-intelligence/roku-unleashes-24-7-ai-slop-channel"
+      },
+      {
+        "publisher": "Time Out",
+        "title": "Roku just launched a channel devoted entirely to AI-generated content",
+        "url": "https://www.timeout.com/usa/news/roku-just-launched-a-channel-devoted-entirely-to-ai-generated-content-082126"
+      },
+      {
+        "publisher": "Boing Boing",
+        "title": "Roku launches 24 hour AI slop channel",
+        "url": "https://boingboing.net/2026/08/08/roku-launches-24-hour-ai-slop-channel.html"
+      }
+    ],
+    "added": "2026-11-08"
   },
   {
     "id": "2026-08-san-francisco-s-ai-billboard-arms-race",
@@ -525,6 +592,29 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-01-975m-all-stock-deal-for-a-tiktoker-s-brand-and-ai-di",
+    "date": "2026-01-23",
+    "title": "$975M all-stock deal for a TikToker's brand and AI digital twin",
+    "who": "Rich Sparkle Holdings and Khaby Lame (Step Distinctive)",
+    "tag": "ai",
+    "what": "Nasdaq-listed Rich Sparkle agreed to buy Khaby Lame's company in a $975M all-stock deal, with rights to an AI digital twin of his face, voice and behaviour. A later report says the deal has stalled after a stock collapse.",
+    "quip": "Nearly a billion dollars so a clone can react to life hacks in every time zone.",
+    "cost": "$975M all-stock transaction",
+    "sources": [
+      {
+        "publisher": "Entrepreneur",
+        "title": "The World's Most-Followed TikToker Just Signed a $975 Million Content Deal — AI Clone Included",
+        "url": "https://www.entrepreneur.com/business-news/tiktok-star-khaby-lame-signs-975-million-deal-content-creators-ai-clone"
+      },
+      {
+        "publisher": "allAfrica",
+        "title": "Senegalese-Born TikTok Star Khaby Lame Sells Company for $900m",
+        "url": "https://allafrica.com/stories/202601270230.html"
+      }
+    ],
+    "added": "2026-11-08"
   },
   {
     "id": "2026-01-humans-and-seed-round",
