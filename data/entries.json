@@ -381,6 +381,29 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-04-1-1b-seed-round-for-a-lab-with-no-product-plans",
+    "date": "2026-04-27",
+    "title": "$1.1B seed round for a lab with no product plans",
+    "who": "Ineffable Intelligence (David Silver)",
+    "tag": "ai",
+    "what": "The London startup from ex-DeepMind researcher David Silver emerged from stealth with a $1.1B seed round at a $5.1B valuation. Reports say it has no product planned any time soon.",
+    "quip": "Valued at $5.1 billion before shipping anything, which is a feat of its own.",
+    "cost": "$1.1B seed round at $5.1B valuation",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "Ex-DeepMind David Silver raises $1.1 billion for AI startup Ineffable",
+        "url": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html"
+      },
+      {
+        "publisher": "GeekWire",
+        "title": "How a Seattle VC firm broke into the $1.1B seed round for a DeepMind legend's superintelligence startup",
+        "url": "https://www.geekwire.com/2026/how-a-seattle-vc-firm-broke-into-the-1-1b-seed-round-for-a-deepmind-legends-superintelligence-startup/"
+      }
+    ],
+    "added": "2026-11-09"
+  },
+  {
     "id": "2026-04-beijing-robot-half-marathon",
     "date": "2026-04-19",
     "title": "Robot half marathon in Beijing",
