@@ -278,6 +278,29 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-07-ikairos-a-desk-robot-that-detaches-into-a-pendant",
+    "date": "2026-07-22",
+    "title": "iKairos, a desk robot that detaches into a pendant",
+    "who": "Lingverse (Jiawei Gu)",
+    "tag": "ai",
+    "what": "Lingverse raised $29M Pre-A to develop iKairos, a desktop robot whose core detaches into a necklace AI wearable. It was shown at IFA 2026 with no firm release date.",
+    "quip": "A desk robot that doubles as a necklace, for when your desk needs company.",
+    "cost": "$29M Pre-A funding round (reported); expected price $199-$249",
+    "sources": [
+      {
+        "publisher": "Unite.AI",
+        "title": "Lingverse Raises $29 Million to Develop iKairos, an AI Wearable Inspired by Jibo",
+        "url": "https://www.unite.ai/lingverse-raises-29-million-to-develop-ikairos-an-ai-wearable-inspired-by-jibo/"
+      },
+      {
+        "publisher": "Android Authority",
+        "title": "This desktop robot companion is also an AI wearable you can wear around your neck",
+        "url": "https://www.androidauthority.com/ikairos-modular-ai-wearable-3706717/"
+      }
+    ],
+    "added": "2026-11-11"
+  },
+  {
     "id": "2026-07-moscow-robot-wedding",
     "date": "2026-07-08",
     "title": "Robot wedding at the Pushkin Library",
@@ -321,6 +344,28 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-06-petphone-an-ai-smartphone-for-pets",
+    "date": "2026-06-09",
+    "title": "PetPhone, an AI smartphone for pets",
+    "who": "petpogo (uCloudlink)",
+    "tag": "ai",
+    "what": "petpogo markets the PetPhone as an AI smartphone for dogs and cats, with two-way 'PetChat' and emotion analysis of mood and motion, sold with a subscription plan.",
+    "quip": "The dog still can't answer, but now it has a data plan.",
+    "sources": [
+      {
+        "publisher": "Trend Hunter",
+        "title": "Petpogo Debuts Petphone — an AI-Powered Smartphone for Pets",
+        "url": "https://www.trendhunter.com/trends/aipowered-smartphone"
+      },
+      {
+        "publisher": "Chewy",
+        "title": "petpogo PetPhone Smart Dog & Cat GPS & Activity Tracker",
+        "url": "https://www.chewy.com/glocalme-petphone-gps-activity/dp/2302382"
+      }
+    ],
+    "added": "2026-11-11"
   },
   {
     "id": "2026-05-pettichat-pet-translator",
