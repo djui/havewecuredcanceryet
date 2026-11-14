@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-humanoid-robots-as-speakers-and-dancers-at-web-summi",
+    "date": "2026-11-09",
+    "title": "Humanoid robots as speakers and dancers at Web Summit",
+    "who": "Web Summit Lisbon (Chinese robot makers incl. Galbot)",
+    "tag": "ai",
+    "what": "Web Summit 2026 in Lisbon let humanoid robots act as official speakers for the first time. Nine Chinese humanoids also performed a synchronised dance routine in the MEO Arena.",
+    "quip": "The keynote speaker has no opinions, but excellent footwork.",
+    "sources": [
+      {
+        "publisher": "inkl",
+        "title": "Portugal: Humanoid robots take centre stage at Web Summit 2026",
+        "url": "https://www.inkl.com/news/portugal-humanoid-robots-take-centre-stage-at-web-summit-2026"
+      }
+    ],
+    "added": "2026-11-14"
+  },
+  {
     "id": "2026-10-wabi-valued-at-1-25b-as-a-mini-app-personal-agent",
     "date": "2026-10-29",
     "title": "Wabi valued at $1.25B as a mini-app 'personal agent'",
@@ -435,6 +452,28 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-02-gucci-s-ai-generated-teaser-images",
+    "date": "2026-02-23",
+    "title": "Gucci's AI-generated teaser images",
+    "who": "Gucci (Demna's Primavera show)",
+    "tag": "ai",
+    "what": "Gucci posted AI-generated promotional images ahead of its Milan Primavera show, with disclaimers in the captions. Users called the images cheap 'slop' and questioned the brand's craftsmanship image.",
+    "quip": "A heritage house of leather craft, previewed with machine-made loafers.",
+    "sources": [
+      {
+        "publisher": "DesignRush",
+        "title": "Gucci Faces Backlash Over AI Images Ahead of Demna's Milan Debut",
+        "url": "https://news.designrush.com/gucci-ai-ads-backlash-denma-milan-primavera-show"
+      },
+      {
+        "publisher": "Inquirer Lifestyle",
+        "title": "The AI dilemma in luxury fashion",
+        "url": "https://lifestyle.inquirer.net/565520/the-ai-dilemma-in-luxury-fashion/"
+      }
+    ],
+    "added": "2026-11-14"
   },
   {
     "id": "ai-com-super-bowl",
