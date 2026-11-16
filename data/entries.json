@@ -227,6 +227,41 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-08-higgsfield-valued-at-5-4b-for-ai-promo-videos",
+    "date": "2026-08-17",
+    "title": "Higgsfield valued at $5.4B for AI promo videos",
+    "who": "Higgsfield (Alex Mashrabov)",
+    "tag": "ai",
+    "what": "The AI video startup reportedly raised $400M at a $5.4B valuation, eight months after a $1.3B valuation. Its growth is driven by brands making several marketing videos a day.",
+    "quip": "Brands used to make one campaign video. Now they make several a day.",
+    "cost": "$400M raised at a $5.4B valuation (Financial Times, via The Decoder)",
+    "sources": [
+      {
+        "publisher": "The Decoder (citing the Financial Times)",
+        "title": "AI video market has bounced back from Sora's false start",
+        "url": "https://the-decoder.com/ai-video-market-has-bounced-back-from-soras-false-start/"
+      }
+    ],
+    "added": "2026-11-16"
+  },
+  {
+    "id": "2026-08-inception-point-ai-s-persona-factory",
+    "date": "2026-08-13",
+    "title": "Inception Point AI's persona factory",
+    "who": "Inception Point AI (CEO Jeanine Wright)",
+    "tag": "ai",
+    "what": "The startup runs over 100 AI personas, such as a British gardening expert, each with a 15-30 page fictional biography. It maintains more than 5,000 active podcasts. Its CEO says 20 listeners per episode is enough to turn a profit.",
+    "quip": "A fictional gardener with a life story, so that 20 people can listen to a podcast.",
+    "sources": [
+      {
+        "publisher": "The Decoder (citing the New York Times)",
+        "title": "AI video market has bounced back from Sora's false start",
+        "url": "https://the-decoder.com/ai-video-market-has-bounced-back-from-soras-false-start/"
+      }
+    ],
+    "added": "2026-11-16"
+  },
+  {
     "id": "2026-08-san-francisco-s-ai-billboard-arms-race",
     "date": "2026-08-03",
     "title": "San Francisco's AI billboard arms race",
@@ -435,6 +470,28 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-02-ai-short-film-pulled-from-amc-pre-show",
+    "date": "2026-02-24",
+    "title": "AI short film pulled from AMC pre-show",
+    "who": "Screenvision Media / Frame Forward festival (Igor Alferov)",
+    "tag": "ai",
+    "what": "Thanksgiving Day, an AI-made short about a bear and a platypus in space, won an AI film festival and a two-week theatrical pre-show run. It was pulled after online backlash. AMC said Screenvision had arranged it.",
+    "quip": "A space bear and a platypus, withdrawn from cinemas by popular demand.",
+    "sources": [
+      {
+        "publisher": "Dexerto",
+        "title": "AMC pulls AI movie from theaters after backlash",
+        "url": "https://www.dexerto.com/tv-movies/amc-pulls-ai-movie-from-theaters-after-backlash-3323619/"
+      },
+      {
+        "publisher": "Futurism",
+        "title": "AI-Generated Film Pulled From AMC Cinemas",
+        "url": "https://futurism.com/artificial-intelligence/ai-film-pulled-from-amc-theaters"
+      }
+    ],
+    "added": "2026-11-16"
   },
   {
     "id": "ai-com-super-bowl",
