@@ -381,6 +381,28 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-04-sophia-the-robot-joins-a-live-orchestra",
+    "date": "2026-04-29",
+    "title": "Sophia the robot joins a live orchestra",
+    "who": "Hanson Robotics' Sophia / Hong Kong Baptist University",
+    "tag": "ai",
+    "what": "The humanoid robot Sophia took the stage with a live orchestra in Hong Kong on April 29, 2026, in what was billed as her classical music debut. Hong Kong Baptist University unveiled the performance.",
+    "quip": "Ten million cancer deaths a year, and the robot with the famous face got a symphony.",
+    "sources": [
+      {
+        "publisher": "SCMP",
+        "title": "Hong Kong's home-grown humanoid robot Sophia makes her classical music debut",
+        "url": "https://www.scmp.com/video/asia/3351989/hong-kongs-home-grown-humanoid-robot-sophia-makes-her-classical-music-debut"
+      },
+      {
+        "publisher": "SlashGear",
+        "title": "Live Hong Kong Concert Highlights How Creepy Humanoid Robots Really Are",
+        "url": "https://www.slashgear.com/2193713/hong-kong-humanoid-robot-sophia-concert/"
+      }
+    ],
+    "added": "2026-11-18"
+  },
+  {
     "id": "2026-04-beijing-robot-half-marathon",
     "date": "2026-04-19",
     "title": "Robot half marathon in Beijing",
