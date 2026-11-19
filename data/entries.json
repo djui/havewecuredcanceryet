@@ -702,6 +702,29 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2025-11-stream-a-ring-you-talk-to-for-voice-notes",
+    "date": "2025-11-05",
+    "title": "Stream, a ring you talk to for voice notes",
+    "who": "Sandbar",
+    "tag": "ai",
+    "what": "Former Meta employees launched Stream, a smart ring for dictating voice notes and controlling music, sold at $249. Sandbar is a startup of about 15 people. It reportedly later raised a $23M Series A.",
+    "quip": "A ring to say things to your phone, which can already hear you.",
+    "cost": "$13M raised at launch (TechCrunch); a $23M Series A reported later; ring priced at $249",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "title": "Former Meta employees launch Stream, a smart ring that takes voice notes and controls music",
+        "url": "https://techcrunch.com/2025/11/05/former-meta-employees-launch-stream-a-smart-ring-that-takes-voice-notes-and-controls-music/"
+      },
+      {
+        "publisher": "UC Today",
+        "title": "AI Wearable Startup Sandbar Raises $23M for Voice Note-Taking Ring",
+        "url": "https://www.uctoday.com/devices-workspace-tech/sandbar-ai-voice-note-taking-ring/"
+      }
+    ],
+    "added": "2026-11-19"
+  },
+  {
     "id": "2025-11-coca-cola-ai-holiday-ads",
     "date": "2025-11-03",
     "title": "Coca-Cola's AI holiday ads, again",
