@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-cozio-a-pet-companion-robot-with-two-arms",
+    "date": "2026-11-16",
+    "title": "Cozio, a pet companion robot with two arms",
+    "who": "Cozio",
+    "tag": "ai",
+    "what": "Cozio launched on Kickstarter as a pet companion robot with dual robotic arms. It reportedly finds dogs on its own, starts play sessions and tracks their daily activity.",
+    "quip": "A robot with two arms, hired to play fetch. The dog was already available.",
+    "sources": [
+      {
+        "publisher": "openPR (company press release)",
+        "title": "Cozio Launches World's First Pet Companion Robot With Dual Robotic Arms on Kickstarter",
+        "url": "https://www.openpr.com/news/4690939/cozio-launches-world-s-first-pet-companion-robot-with-dual"
+      }
+    ],
+    "added": "2026-11-23"
+  },
+  {
     "id": "2026-10-wabi-valued-at-1-25b-as-a-mini-app-personal-agent",
     "date": "2026-10-29",
     "title": "Wabi valued at $1.25B as a mini-app 'personal agent'",
