@@ -300,6 +300,28 @@
     "added": "2026-10-17"
   },
   {
+    "id": "2026-07-tilly-norwood-to-headline-a-feature-film-misaligned",
+    "date": "2026-07-06",
+    "title": "Tilly Norwood to headline a feature film, 'Misaligned'",
+    "who": "Particle6 (Eline Van der Velden)",
+    "tag": "ai",
+    "what": "AI studio Particle6 announced its AI-generated 'actor' Tilly Norwood will star in her first feature, the comedy-drama 'Misaligned', which is in development.",
+    "quip": "The film is called Misaligned. Nobody had to make that up.",
+    "sources": [
+      {
+        "publisher": "Variety",
+        "title": "Tilly Norwood to Lead New Movie 'Misaligned,' Marking Feature Debut for AI 'Actor'",
+        "url": "https://variety.com/2026/film/global/ai-actor-tilly-norwood-movie-debut-misaligned-1236802325/"
+      },
+      {
+        "publisher": "CBS News",
+        "title": "AI actor Tilly Norwood set to star in first feature film",
+        "url": "https://www.cbsnews.com/news/tilly-norwood-ai-generated-actor-feature-film/"
+      }
+    ],
+    "added": "2026-11-24"
+  },
+  {
     "id": "2026-06-ubtech-u1-companion",
     "date": "2026-06-30",
     "title": "U1 companion humanoid",
@@ -396,6 +418,28 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2026-04-ingarose-an-ai-singer-hits-no-1-on-itunes",
+    "date": "2026-04-16",
+    "title": "IngaRose, an AI singer, hits No. 1 on iTunes",
+    "who": "IngaRose (AI-generated artist)",
+    "tag": "ai",
+    "what": "An AI-generated R&B artist, IngaRose, reached No. 1 on US iTunes with 'Celebrate Me' and held five of the top 100 spots, per reports. She is not believed to be a real performer.",
+    "quip": "A singer who does not exist, topping a chart that does.",
+    "sources": [
+      {
+        "publisher": "Dexerto",
+        "title": "AI generated song takes #1 spot on iTunes global charts",
+        "url": "https://www.dexerto.com/entertainment/ai-generated-song-takes-1-spot-on-itunes-global-charts-3353485/"
+      },
+      {
+        "publisher": "Showbiz411",
+        "title": "Exclusive: iTunes Gamed Again with Another AI Singer at Number 1 - IngaRose Follows Eddie Dalton As Fake Hit Performer",
+        "url": "https://www.showbiz411.com/2026/04/16/exclusive-itunes-gamed-again-with-another-ai-singer-at-number-1-ingarose-follows-eddie-dalton-as-fake-hit-performer"
+      }
+    ],
+    "added": "2026-11-24"
   },
   {
     "id": "2026-03-eddie-dalton",
@@ -611,6 +655,29 @@
       }
     ],
     "added": "2026-10-17"
+  },
+  {
+    "id": "2025-12-disney-invests-1b-in-openai-so-fans-can-make-sora-vi",
+    "date": "2025-12-11",
+    "title": "Disney invests $1B in OpenAI so fans can make Sora videos of Mickey",
+    "who": "The Walt Disney Company and OpenAI",
+    "tag": "ai",
+    "what": "Disney is investing $1 billion in OpenAI and licensing about 200+ characters to Sora, so users can make short AI videos with them. Curated fan videos are to stream on Disney+.",
+    "quip": "A billion dollars so the internet can make Mickey do whatever a prompt says.",
+    "cost": "$1 billion Disney investment in OpenAI",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "title": "Disney making $1 billion investment in OpenAI, will allow characters on Sora AI video generator",
+        "url": "https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html"
+      },
+      {
+        "publisher": "The Walt Disney Company",
+        "title": "The Walt Disney Company and OpenAI Reach Landmark Agreement to Bring Beloved Characters from Across Disney's Brands to Sora",
+        "url": "https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/"
+      }
+    ],
+    "added": "2026-11-24"
   },
   {
     "id": "2025-12-mcdonalds-ai-christmas-ad",
