@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-jioastro-an-ai-vedic-astrologer",
+    "date": "2026-11-26",
+    "title": "JioAstro, an AI Vedic astrologer",
+    "who": "Jio Platforms (Reliance)",
+    "tag": "ai",
+    "what": "Jio launched JioAstro, an AI astrology app with birth charts, horoscopes and an AI astrologer that checks for Yogas and Doshas. Its terms call the mobile app an invite-only prototype.",
+    "quip": "The stars were consulted. Presumably they had no comment on oncology.",
+    "sources": [
+      {
+        "publisher": "Business Standard",
+        "title": "Reliance enters India's growing digital astrology market with JioAstro",
+        "url": "https://www.business-standard.com/amp/companies/news/reliance-enters-india-s-growing-digital-astrology-market-with-jioastro-126112600381_1.html"
+      },
+      {
+        "publisher": "Business Standard",
+        "title": "JioAstro (via The Tech Outlook)",
+        "url": "https://www.thetechoutlook.com/new-release/software-apps/reliance-jio-launches-an-ai-powered-vedic-astrology-app-jioastro/"
+      }
+    ],
+    "added": "2026-11-26"
+  },
+  {
     "id": "2026-10-wabi-valued-at-1-25b-as-a-mini-app-personal-agent",
     "date": "2026-10-29",
     "title": "Wabi valued at $1.25B as a mini-app 'personal agent'",
