@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-pophie-a-fluffy-robot-that-starts-conversations-on-i",
+    "date": "2026-11-20",
+    "title": "Pophie, a fluffy robot that starts conversations on its own",
+    "who": "InsBotics",
+    "tag": "ai",
+    "what": "Pophie is a furry AI companion robot with a nose camera that recognises family members and remembers preferences. Japan reservations opened on Makuake on 20 November; self-started chats need a Pro subscription.",
+    "quip": "A robot that talks first, if you subscribe. Loneliness, now with a tier.",
+    "sources": [
+      {
+        "publisher": "Notebookcheck",
+        "title": "AI companion robot remembers your family and starts conversations on its own",
+        "url": "https://www.notebookcheck.net/AI-companion-robot-remembers-your-family-and-starts-conversations-on-its-own.1455283.0.html"
+      },
+      {
+        "publisher": "Mezha",
+        "title": "Pophie robot can remember family members and start conversations for Pro users",
+        "url": "https://mezha.net/eng/news/mezha-be3fd6f0d707c6d2f44c9378_pophie_robot_can"
+      }
+    ],
+    "added": "2026-11-27"
+  },
+  {
     "id": "2026-10-wabi-valued-at-1-25b-as-a-mini-app-personal-agent",
     "date": "2026-10-29",
     "title": "Wabi valued at $1.25B as a mini-app 'personal agent'",
